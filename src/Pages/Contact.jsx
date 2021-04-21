@@ -125,8 +125,8 @@ class Contact extends Component {
             </section>
             <section className="contact-area">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-4">
+                    <div className="row justify-content-center">
+                        {/* <div className="col-md-4">
                             <div className="single-contact-info mt-30">
                                 <div className="info-icon">
                                     <i className="fas fa-map-marker-alt"></i>
@@ -140,7 +140,7 @@ class Contact extends Component {
                                     <p> 4388 Saint-Denis, bureau 200, Montreal, QC H2J 2L1,Canada</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-md-4">
                             <div className="single-contact-info mt-30">
                                 <div className="info-icon">
@@ -148,11 +148,11 @@ class Contact extends Component {
                                 </div>
                                 <div className="info-content" style={hideEnglish}>
                                     <h5 className="title">Téléphone</h5>
-                                    <p><a href="tel:+62548254658">+1844-780-7013</a></p>
+                                    <p><a href="tel:+15145003434">+1514-500-3434</a></p>
                                 </div>
                                 <div className="info-content" style={hideFrench}>
                                     <h5 className="title">Phone</h5>
-                                    <p><a href="tel:+62548254658">+1844-780-7013</a></p>
+                                    <p><a href="tel:+15145003434">+1514-500-3434</a></p>
                                 </div>
                             </div>
                         </div>

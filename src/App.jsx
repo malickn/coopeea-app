@@ -26,7 +26,7 @@ import {
 function App() {
 
   return (
-    <Router>
+    <Router basename="/coopeea">
     <div className="App">
       <Switch>
         <Route path="/" exact component={Home} />

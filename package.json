@@ -2,7 +2,7 @@
     "name": "coopeea-app",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://malickn.github.io/coopeea-app/",
+    "homepage": ".",
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.10",
         "@testing-library/react": "^11.2.6",

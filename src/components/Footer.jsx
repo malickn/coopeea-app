@@ -1,62 +1,85 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {connect } from 'react-redux';
 
-export default class Footer extends Component {
+class Footer extends Component {
     render() {
+        const hideFrench = {
+            display : (this.props.language === 'English') ? "none" : "block"
+        }
+
+        const hideEnglish = {
+            display : (this.props.language === 'English') ? "block" : "none"
+        }
         return (
             <section className="footer-area bg_cover" style={{backgroundImage: "url(assets/images/counter-bg.jpg)"}}>
                 <div className="footer-widget">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-3 col-sm-6">
-                                <div className="footer-link mt-45">
-                                    <h4 className="footer-title">Our Campus</h4>
+                                <div className="footer-link mt-45" style={hideEnglish}>
+                                    <h4 className="footer-title">A propos de Nous</h4>
                                     <ul className="link-list">
-                                        <li><a href="about-us.html">About us</a></li>
-                                        <li><a href="http://coopeea.org">Campus map</a></li>
-                                        <li><a href="http://coopeea.org">360O  view</a></li>
-                                        <li><a href="http://coopeea.org">Notice board</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="/aboutus-organization">L'Organisation</a></li>
+                                        <li><a href="/aboutus-mission">Mission et valeurs</a></li>
+                                        <li><a href="/aboutus-goals">Objectifs</a></li>
+                                    </ul>
+                                </div>
+                                <div className="footer-link mt-45" style={hideFrench}>
+                                    <h4 className="footer-title">About Us</h4>
+                                    <ul className="link-list">
+                                        <li><a href="/aboutus-organization">Organization</a></li>
+                                        <li><a href="/aboutus-mission">Mission & values</a></li>
+                                        <li><a href="/aboutus-goals">Goals</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-md-3 col-sm-6">
-                                <div className="footer-link mt-45">
-                                    <h4 className="footer-title">Information</h4>
+                                <div className="footer-link mt-45" style={hideEnglish}>
+                                    <h4 className="footer-title">Nos services</h4>
                                     <ul className="link-list">
-                                        <li><a href="http://coopeea.org">Admission</a></li>
-                                        <li><a href="http://coopeea.org">Tuition fee</a></li>
-                                        <li><a href="http://coopeea.org">Scholorship</a></li>
-                                        <li><a href="http://coopeea.org">Coditions</a></li>
-                                        <li><a href="http://coopeea.org">Facilities</a></li>
+                                        <li><a href="/services-development-competence">Développement de compétence</a></li>
+                                        <li><a href="/services-guidance-mediation">Orientation et Médiation</a></li>
+                                        <li><a href="/services-mentoring">Mentorat</a></li>
+                                    </ul>
+                                </div>
+                                <div className="footer-link mt-45" style={hideFrench}>
+                                    <h4 className="footer-title">Our services</h4>
+                                    <ul className="link-list">
+                                        <li><a href="/services-development-competence">Competence developpement</a></li>
+                                        <li><a href="/services-guidance-mediation">Guidance & Mediation</a></li>
+                                        <li><a href="/services-mentoring">Mentorat</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-md-3 col-sm-6">
-                                <div className="footer-link mt-45">
-                                    <h4 className="footer-title">Useful Link</h4>
+                                <div className="footer-link mt-45" style={hideEnglish}>
+                                    <h4 className="footer-title">Soutien scolaire</h4>
                                     <ul className="link-list">
-                                        <li><a href="our-courses-left-sidebar.html">All Courses</a></li>
-                                        <li><a href="teachers.html">Our Teachers</a></li>
-                                        <li><a href="event.html">Our Events</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog post</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
+                                        <li><a href="/services-tutoring-maths">Maths</a></li>
+                                        <li><a href="/services-tutoring-sciencetechnology">Science et Technologie</a></li>
+                                        <li><a href="/services-tutoring-french">Cours de français</a></li>
+                                        <li><a href="/services-tutoring-english">Cours d'anglais</a></li>
+                                    </ul>
+                                </div>
+                                <div className="footer-link mt-45" style={hideFrench}>
+                                    <h4 className="footer-title">Tutoring</h4>
+                                    <ul className="link-list">
+                                        <li><a href="/services-tutoring-maths">Maths</a></li>
+                                        <li><a href="/services-tutoring-sciencetechnology">Science & Technology</a></li>
+                                        <li><a href="/services-tutoring-french">Learn French</a></li>
+                                        <li><a href="/services-tutoring-english">Learn English</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-md-3 col-sm-6">
-                                <div className="footer-link mt-45">
+                                <div className="footer-link mt-45" >
                                     <h4 className="footer-title">Contact Info</h4>
                                     <ul className="link-list">
                                         <li>
-                                            <p>245, New Town, Marklen Street North City, New York, USA</p>
+                                            <p><a href="tel:+15145003434">+1514-500-3434</a></p>
                                         </li>
                                         <li>
-                                            <p><a href="tel:+01254659874">+01254 659 874 </a></p>
-                                            <p><a href="tel:+32145857458">+32145 857 458</a></p>
-                                        </li>
-                                        <li>
-                                            <p><a href="mailto://info@example.com">info@example.com</a></p>
-                                            <p><a href="http://coopeea.org">www.example.com</a></p>
+                                            <p><a href="mailto://contact@coopeea.org">contact@coopeea.org</a></p>
                                         </li>
                                     </ul>
                                 </div>
@@ -66,7 +89,10 @@ export default class Footer extends Component {
                 </div>
                 <div className="footer-copyright">
                     <div className="container">
-                        <div className="copyright text-center">
+                        <div className="copyright text-center" style={hideEnglish}>
+                            <p>&copy; Copyright tous droits réservés par <a href="https://coopeea.org/">Coopeea</a></p>
+                        </div>
+                        <div className="copyright text-center" style={hideFrench}>
                             <p>&copy; Copyright all right reserved by <a href="https://coopeea.org/">Coopeea</a></p>
                         </div>
                     </div>
@@ -75,3 +101,11 @@ export default class Footer extends Component {
         )
     }
 };
+
+const mapStateToProps = state => {
+    return {
+        language : state.language
+    };
+};
+
+export default connect(mapStateToProps)(Footer);
