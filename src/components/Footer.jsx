@@ -79,7 +79,7 @@ class Footer extends Component {
                                             <p><a href="tel:+15145003434">+1514-500-3434</a></p>
                                         </li>
                                         <li>
-                                            <p><a href="mailto://contact@coopeea.org">contact@coopeea.org</a></p>
+                                            <p><a href="mailto://info@coopeea.org">info@coopeea.org</a></p>
                                         </li>
                                     </ul>
                                 </div>

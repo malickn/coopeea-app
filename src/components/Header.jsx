@@ -62,7 +62,7 @@ class Header extends Component {
                         <div className="header-top-wrapper d-flex flex-wrap justify-content-sm-between">
                             <div className="header-top-left mt-10">
                                 <ul className="header-meta">
-                                    <li><a href="mailto://contact@coopeea.org">contact@coopeea.org</a></li>
+                                    <li><a href="mailto://info@coopeea.org">info@coopeea.org</a></li>
                                 </ul>
                             </div>
                             <div className="header-top-right mt-10">
