@@ -44,12 +44,37 @@ class Contact extends Component {
         if(error.length > 0){
             this.setState({errorMessage : error})
         }else{
-            this.setState({successMessage : (this.props.language !== 'English') ? 'Your message is successfully sent' : 'Votre message a été envoyé avec succès'})
-            this.setState({name : ''});
-            this.setState({email : ''});
-            this.setState({phone : ''});
-            this.setState({subject : ''});
-            this.setState({message : ''});
+
+            const data = {
+                    name:this.state.name,
+                    email : this.state.email,
+                    phone : this.state.phone,
+                    subject : this.state.subject,
+                    message : this.state.message,
+                    lg : this.props.language
+            };
+            const endpoint = 'http://coopeea.facemontreal.com/api/sendcontactinfo.php';
+
+            fetch(endpoint, {
+                "method": "POST",
+                "body": JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(response => {     
+                if(response.action === "failed"){
+                    this.setState({errorMessage : response.msg})
+                }else{
+                    this.setState({successMessage : response.msg})
+                    this.setState({name : ''});
+                    this.setState({email : ''});
+                    this.setState({phone : ''});
+                    this.setState({subject : ''});
+                    this.setState({message : ''});
+                }
+            })
+            .catch(err => {
+                this.setState({errorMessage : err})
+            });
         }
     }
 
@@ -66,11 +91,6 @@ class Contact extends Component {
         }
         if(!phone.match(/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/)){
             const n = (this.props.language !== 'English') ? "Please enter a valid phone" : "Veuillez saisir un téléphone valide";
-            return n;
-        }
-
-        if (name.length === 0) {
-            const n = (this.props.language !== 'English') ? "Please enter your name" : "Veuillez saisir votre nom";
             return n;
         }
         if (email.length < 5) {
@@ -163,7 +183,7 @@ class Contact extends Component {
                                 </div>
                                 <div className="info-content">
                                     <h5 className="title">Web</h5>
-                                    <p><a href="mailto://info@example.com">contact@coopea.org</a></p>
+                                    <p><a href="mailto://info@coopeea.org">info@coopeea.org</a></p>
                                     <p><a href="//www.coopeea.org">www.coopeea.org</a></p>
                                 </div>
                             </div>
@@ -184,10 +204,10 @@ class Contact extends Component {
                                     <form id="contact-form" action="/#" method="post">
                                         <div className="row" style={showMessage}>
                                             <div className="col-md-12">
-                                                <div class="alert alert-success" role="alert" style={showSuccess}>
+                                                <div className="alert alert-success" role="alert" style={showSuccess}>
                                                     {this.state.successMessage}
                                                 </div>
-                                                <div class="alert alert-danger" role="alert" style={showError}>
+                                                <div className="alert alert-danger" role="alert" style={showError}>
                                                     {this.state.errorMessage}
                                                 </div>
                                             </div>
@@ -245,10 +265,10 @@ class Contact extends Component {
                                     <form id="contact-form" action="/#" method="post">
                                         <div className="row" style={showMessage}>
                                             <div className="col-md-12">
-                                                <div class="alert alert-success" role="alert" style={showSuccess}>
+                                                <div className="alert alert-success" role="alert" style={showSuccess}>
                                                     {this.state.successMessage}
                                                 </div>
-                                                <div class="alert alert-danger" role="alert" style={showError}>
+                                                <div className="alert alert-danger" role="alert" style={showError}>
                                                     {this.state.errorMessage}
                                                 </div>
                                             </div>
