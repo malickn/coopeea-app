@@ -36,7 +36,20 @@ class AboutUsOrganization extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">A propos de nous</h2>
                                 <span className="line"></span>
-                                <p>A propos de nous</p>
+                                <div className="subtitle">La COOPEEA (Coopérative des enseignantes et enseignants d'action communautaire) offre aux enseignant.e.s, aux chercheur.e.s et aux spécialistes de l'éduction un cadre pour appuyer et accompagner les politiques éducatives. La COOPEEA intervient en termes de soutien scolaire, de stratégies et d'innovations pédagogiques favorisant la motivation et la réussite scolaire.</div>
+                                <div className="ulitems">
+                                    <div className="ulitem">- <span>Le Conseil d'Administration</span> :  Il est chargé de représenter les membres. Il assume toutes les tâches liées au bon fonctionnement de la Coopérative et tout mandat confié par l'Assemblée générale des membres.</div>
+                                    <div className="ulitem">- <span>Comité de développement de compétences</span> : Il met en œuvre des stratégies permettant aux membres :
+                                        <ul>
+                                            <li>D'échanger leurs savoir-faire</li>
+                                            <li>De partager des connaissances et ressources pédagogiques</li>
+                                            <li>D'accompagner les nouveaux collègues dans leur insertion et intégration</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div className="ulitem">- <span>Comité de de médiation et d'orientation</span> : Ce comité est le relais entre les établissements scolaires et les parents d'élèves, afin de mieux les informer sur le système éducatif. Il prend en charge aussi les questions liées à l'orientation des jeunes, vers les bonnes ressources pour leur réussite scolaire.</div>
+                                    <div className="ulitem">- <span>Comité de soutien scolaire</span> : Ce comité assure des soutiens relatifs aux difficultés d'apprentissage des jeunes. Il met à la disposition des jeunes toutes les ressources et l'accompagnement nécessaires à leur réussite scolaire.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -47,7 +60,7 @@ class AboutUsOrganization extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">About Us</h2>
                                 <span className="line"></span>
-                                <p>About Us</p>
+                                <p>The COOPEEA offers teachers, researchers and education specialists a framework to support and accompany educational policies. COOPEEA intervenes in terms of academic support, strategies and educational innovations promoting motivation and academic success.</p>
                             </div>
                         </div>
                     </div>

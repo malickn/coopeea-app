@@ -36,7 +36,13 @@ class AboutUsMission extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">Mission et valeurs</h2>
                                 <span className="line"></span>
-                                <p>Mission et valeurs</p>
+                                <div className="subtitle">La COOPEEA a pour principale mission le soutien scolaire des jeunes, afin de susciter leur intérêt et d'augmenter leur réussite.</div>
+                                <div className="ulitems">
+                                    <div>La COOPEEA a pour valeurs : </div>
+                                    <div className="ulitem">- L'Éthique et l'Équité</div>
+                                    <div className="ulitem">- La Solidarité et la Persévérance</div>
+                                    <div className="ulitem">- L'Esprit d'équipe</div>
+                                </div>
                             </div>
                         </div>
                     </div>

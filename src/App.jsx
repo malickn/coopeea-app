@@ -6,6 +6,7 @@ import Members from './Pages/Members';
 import AboutUsOrganization from './Pages/Aboutus-organization';
 import AboutUsMission from './Pages/Aboutus-mission';
 import AboutUsGoals from './Pages/Aboutus-goals';
+import ServicesTutoring from './Pages/Services-tutoring';
 import ServicesTutoringMaths from './Pages/Services-tutoring-maths';
 import ServicesTutoringScienceTechnology from './Pages/Services-tutoring-sciencetechnology';
 import ServicesTutoringFrench from './Pages/Services-tutoring-french';
@@ -35,6 +36,7 @@ function App() {
         <Route path="/aboutus-organization" component={AboutUsOrganization} />
         <Route path="/aboutus-mission" component={AboutUsMission} />
         <Route path="/aboutus-goals" component={AboutUsGoals} />
+        <Route path="/services-tutoring" component={ServicesTutoring} />
         <Route path="/services-tutoring-maths" component={ServicesTutoringMaths} />
         <Route path="/services-tutoring-sciencetechnology" component={ServicesTutoringScienceTechnology} />
         <Route path="/services-tutoring-french" component={ServicesTutoringFrench} />

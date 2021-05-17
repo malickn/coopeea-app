@@ -36,7 +36,12 @@ class ServicesDevelopmentCompetence extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">Services</h2>
                                 <span className="line"></span>
-                                <p>Développement de compétence</p>
+                                <div className="subtitle">La COOPEEA accorde une grande importance au Développement de compétence, à travers des stratégies permettant aux membres :</div>
+                                <div className="ulitems">
+                                    <div className="ulitem">- D'échanger leurs savoir-faire </div>
+                                    <div className="ulitem">- De partager des connaissances et ressources pédagogiques</div>
+                                    <div className="ulitem">- D'accompagner les nouveaux collègues dans leur insertion et intégration</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -47,7 +52,12 @@ class ServicesDevelopmentCompetence extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">Services</h2>
                                 <span className="line"></span>
-                                <p>Competence development</p>
+                                <div className="subtitle">COOPEEA attaches great importance to Competence Development, through strategies allowing members:</div>
+                                <div className="ulitems">
+                                    <div className="ulitem">- To exchange their know-how </div>
+                                    <div className="ulitem">- To share knowledge and educational resources</div>
+                                    <div className="ulitem">- To support new colleagues in their integration and integration</div>
+                                </div>
                             </div>
                         </div>
                     </div>

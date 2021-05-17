@@ -653,56 +653,11 @@ $(function() {
     	 Ajax Signup Form
     	--------------------- */
 
-    //$('.cf-msg').hide();
-    $('#form-register').on('click', function(e) {
-        e.preventDefault();
-        let lastname = $('#lastname').val();
-        let firstname = $('#firstname').val();
-        let email = $('#email').val();
-        const lg = $("#lang").attr('rel');
-        lastname = $.trim(lastname);
-        firstname = $.trim(firstname);
-        email = $.trim(email);
-
-        const values = "lastname=" + lastname + "&firstname=" + firstname + "&email=" + email + '&lg=' + lg;
-
-        $.ajax({
-            type: "POST",
-            url: "/api/register/index.php",
-            data: values,
-            success: function(data) {
-
-                $('input').removeClass('error');
-                if (data.action == 'success') {
-                    $('#lastname').val('');
-                    $('#firstname').val('');
-                    $('#email').val('');
-                    $('.cf-msg').fadeIn().html('<div class="alert alert-success"><strong>Success!</strong> ' + data.msg + '</div>');
-                } else {
-
-                    if (data.class === 'firstname')
-                        $('#firstname').addClass('error');
-
-                    if (data.class === 'lastname')
-                        $('#lastname').addClass('error');
-
-                    if (data.class === 'email')
-                        $('#email').addClass('error');
-
-                    $('.cf-msg').fadeIn().html('<div class="alert alert-danger"><strong>Erreur!</strong> ' + data.msg + '</div>');
-                }
-            }
-        });
-
-        return false;
-    });
-
 
     /*---------------------
      Ajax Contact Form
     --------------------- */
 
-    $('.cf-msg').hide();
     $('#submit').on('click', function(e) {
         e.preventDefault();
 

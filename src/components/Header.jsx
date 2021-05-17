@@ -101,6 +101,7 @@ class Header extends Component {
                                         <li>
                                             <a href="/#">Nos services</a>
                                             <ul className="nav-dropdown nav-submenu">
+                                                {/* <li><a href="/services-tutoring">Soutien scolaire</a></li> */}
                                                 <li>
                                                     <a href="/#">Soutien scolaire</a>
                                                     <ul className="nav-dropdown nav-submenu">
@@ -109,16 +110,16 @@ class Header extends Component {
                                                         <li><a href="/services-tutoring-french">Français</a></li>
                                                         <li><a href="services-tutoring-english">Anglais</a></li>
                                                     </ul>
-                                                </li>  
+                                                </li>
                                                 <li><a href="/services-development-competence">Développement de compétence</a></li>
                                                 <li><a href="/services-guidance-mediation">Orientation et Médiation</a></li>
-                                                <li><a href="/services-mentoring">Mentorat</a></li>
-                                                <li>
+                                                {/* <li><a href="/services-mentoring">Mentorat</a></li> */}
+                                                {/* <li>
                                                     <a href="/#">Activités parascolaires</a>
                                                     <ul className="nav-dropdown nav-submenu">
                                                         <li><a href="/services-digital-culture">Culture numérique (cybersécurité, robotique, codage)</a></li>                                                  
                                                     </ul>
-                                                </li>                                            
+                                                </li>                                             */}
                                                 <li><a href="/services-support-international-education">Appui et accompagnement de politiques éducatives à l'international</a></li>
                                             </ul>
                                         </li>
@@ -145,24 +146,25 @@ class Header extends Component {
                                         <li>
                                             <a href="/#">Our services</a>
                                             <ul className="nav-dropdown nav-submenu">
+                                                {/* <li><a href="/services-tutoring">Tutoring</a></li> */}
                                                 <li>
                                                     <a href="/#">Tutoring</a>
                                                     <ul className="nav-dropdown nav-submenu">
                                                         <li><a href="/services-tutoring-maths">Maths</a></li>
                                                         <li><a href="/services-tutoring-sciencetechnology">Science & Technologie</a></li>
-                                                        <li><a href="/services-tutoring-french">Frenchs</a></li>
+                                                        <li><a href="/services-tutoring-french">French</a></li>
                                                         <li><a href="/services-tutoring-english">English</a></li>
                                                     </ul>
-                                                </li> 
+                                                </li>
                                                 <li><a href="/services-development-competence">Competence development</a></li>
                                                 <li><a href="/services-guidance-mediation">Guidance and Mediation</a></li>
-                                                <li><a href="/services-mentoring">Mentoring</a></li>
-                                                <li>
+                                                {/* <li><a href="/services-mentoring">Mentoring</a></li> */}
+                                                {/* <li>
                                                     <a href="/#">Extracurricular activities</a>
                                                     <ul className="nav-dropdown nav-submenu">
                                                         <li><a href="/services-digital-culture">Digital culture (cybersecurity, robotics, coding)</a></li>                                                  
                                                     </ul>
-                                                </li>                                            
+                                                </li>                                             */}
                                                 <li><a href="/services-support-international-education">Support for international educational policies</a></li>
                                             </ul>
                                         </li>

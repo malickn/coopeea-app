@@ -36,7 +36,7 @@ class ServicesGuidanceMediation extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">Services</h2>
                                 <span className="line"></span>
-                                <p>Orientation et Médiation</p>
+                                <div className="subtitle">La COOPEEA offre des services de Médiation entre les établissements scolaires et les parents d'élèves, surtout nouvellement établis au Québec, afin de mieux les informer sur le système éducatif.  Elle prend en charge aussi les questions liées à l'orientation des jeunes, vers les bonnes ressources pour leur réussite scolaire.</div>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ class ServicesGuidanceMediation extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">Services</h2>
                                 <span className="line"></span>
-                                <p>Guidance & Mediation</p>
+                                <div className="subtitle">COOPEEA offers mediation services between schools and parents of students, especially newly established in Quebec, in order to better inform them about the education system. It also takes care of questions related to the orientation of young people, towards the right resources for their academic success.</div>
                             </div>
                         </div>
                     </div>
