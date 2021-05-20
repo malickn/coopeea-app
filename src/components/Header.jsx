@@ -151,7 +151,7 @@ class Header extends Component {
                                                     <a href="/#">Tutoring</a>
                                                     <ul className="nav-dropdown nav-submenu">
                                                         <li><a href="/services-tutoring-maths">Maths</a></li>
-                                                        <li><a href="/services-tutoring-sciencetechnology">Science & Technologie</a></li>
+                                                        <li><a href="/services-tutoring-sciencetechnology">Science & Technology</a></li>
                                                         <li><a href="/services-tutoring-french">French</a></li>
                                                         <li><a href="/services-tutoring-english">English</a></li>
                                                     </ul>

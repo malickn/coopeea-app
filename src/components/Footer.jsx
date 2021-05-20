@@ -39,7 +39,7 @@ class Footer extends Component {
                                     <ul className="link-list">
                                         <li><a href="/services-development-competence">Développement de compétence</a></li>
                                         <li><a href="/services-guidance-mediation">Orientation et Médiation</a></li>
-                                        <li><a href="/services-mentoring">Mentorat</a></li>
+                                        {/* <li><a href="/services-mentoring">Mentorat</a></li> */}
                                     </ul>
                                 </div>
                                 <div className="footer-link mt-45" style={hideFrench}>
@@ -47,7 +47,7 @@ class Footer extends Component {
                                     <ul className="link-list">
                                         <li><a href="/services-development-competence">Competence developpement</a></li>
                                         <li><a href="/services-guidance-mediation">Guidance & Mediation</a></li>
-                                        <li><a href="/services-mentoring">Mentorat</a></li>
+                                        {/* <li><a href="/services-mentoring">Mentoring</a></li> */}
                                     </ul>
                                 </div>
                             </div>

@@ -37,6 +37,10 @@ class AboutUsOrganization extends Component {
                                 <h2 className="title">A propos de nous</h2>
                                 <span className="line"></span>
                                 <div className="subtitle">La COOPEEA (Coopérative des enseignantes et enseignants d'action communautaire) offre aux enseignant.e.s, aux chercheur.e.s et aux spécialistes de l'éduction un cadre pour appuyer et accompagner les politiques éducatives. La COOPEEA intervient en termes de soutien scolaire, de stratégies et d'innovations pédagogiques favorisant la motivation et la réussite scolaire.</div>
+                                <div className="organisation">
+                                    <img src="assets/images/organigramme.png" alt="Organigramme"/>
+                                </div>
+                                
                                 <div className="ulitems">
                                     <div className="ulitem">- <span>Le Conseil d'Administration</span> :  Il est chargé de représenter les membres. Il assume toutes les tâches liées au bon fonctionnement de la Coopérative et tout mandat confié par l'Assemblée générale des membres.</div>
                                     <div className="ulitem">- <span>Comité de développement de compétences</span> : Il met en œuvre des stratégies permettant aux membres :
@@ -60,7 +64,25 @@ class AboutUsOrganization extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">About Us</h2>
                                 <span className="line"></span>
-                                <p>The COOPEEA offers teachers, researchers and education specialists a framework to support and accompany educational policies. COOPEEA intervenes in terms of academic support, strategies and educational innovations promoting motivation and academic success.</p>
+                                <div className="subtitle">
+                                    The COOPEEA offers teachers, researchers and education specialists a framework to support and accompany educational policies. COOPEEA intervenes in terms of academic support, strategies and educational innovations promoting motivation and academic success.
+                                </div>
+                                <div className="organisation">
+                                    <img src="assets/images/organigramme.png" alt="Organigramme"/>
+                                </div>
+                                <div className="ulitems">
+                                    <div className="ulitem">- <span>Board of directors</span> :  He is responsible for representing the members. He assumes all the tasks related to the proper functioning of the Cooperative and any mandate entrusted by the General Assembly of members.</div>
+                                    <div className="ulitem">- <span>Skills development committee</span> : It implements strategies allowing members :
+                                        <ul>
+                                            <li>To exchange their know-how</li>
+                                            <li>To share knowledge and educational resources</li>
+                                            <li>To support new colleagues in their integration and integration</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div className="ulitem">- <span>Mediation and Orientation Committee</span> : This committee is the link between schools and parents, in order to better inform them about the education system. It also takes care of questions related to the orientation of young people, towards the right resources for their academic success.</div>
+                                    <div className="ulitem">- <span>School support committee</span> : This committee provides support for the learning difficulties of young people. It provides young people with all the resources and support necessary for their academic success.</div>
+                                </div>
                             </div>
                         </div>
                     </div>

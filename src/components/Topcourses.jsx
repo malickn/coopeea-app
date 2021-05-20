@@ -31,8 +31,8 @@ class TopCourses extends Component {
                         <div className="row">
                             <div className="col-lg-3 col-sm-6 courses-col">
                                 <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <a href="/#" className="category">#Science</a>
-                                    <h4 className="courses-title"><a href="courses-details.html">Computer Science & Engineering</a></h4>
+                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Maths</a></h4>
+                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>Maths</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
                                         <p className="duration">Durée: <span> 6 mois</span></p>
                                         <p className="fee">Frais: <span> $540</span></p>
@@ -42,20 +42,18 @@ class TopCourses extends Component {
                                         <p className="fee">Fee: <span> $540</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/register">Postuler en ligne</a><br/>
-                                        <a className="more" href="/contact">Lire la suite <i className="fal fa-chevron-right"></i></a>
+                                        <a className="apply" href="/services-tutoring-maths">Postuler en ligne</a><br/>
                                     </div>
                                     <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/register">Online Apply</a><br/>
-                                        <a className="more" href="/contact">Read more <i className="fal fa-chevron-right"></i></a>
+                                        <a className="apply" href="/services-tutoring-maths">Online Apply</a><br/>
                                     </div>
                                    
                                 </div>
                             </div>
                             <div className="col-lg-3 col-sm-6 courses-col">
-                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.4s">
-                                    <a href="/#" className="category">#Science</a>
-                                    <h4 className="courses-title"><a href="courses-details.html">Applied <br/> Mathematics</a></h4>
+                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
+                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Science et Tech</a></h4>
+                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>Science & Tech</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
                                         <p className="duration">Durée: <span> 6 mois</span></p>
                                         <p className="fee">Frais: <span> $540</span></p>
@@ -65,19 +63,18 @@ class TopCourses extends Component {
                                         <p className="fee">Fee: <span> $540</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/register">Postuler en ligne</a><br/>
-                                        <a className="more" href="/contact">Lire la suite <i className="fal fa-chevron-right"></i></a>
+                                        <a className="apply" href="/services-tutoring-sciencetechnology">Postuler en ligne</a><br/>
                                     </div>
                                     <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/register">Online Apply</a><br/>
-                                        <a className="more" href="/contact">Read more <i className="fal fa-chevron-right"></i></a>
+                                        <a className="apply" href="/services-tutoring-sciencetechnology">Online Apply</a><br/>
                                     </div>
+                                   
                                 </div>
                             </div>
                             <div className="col-lg-3 col-sm-6 courses-col">
-                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.6s">
-                                    <a href="/#" className="category">#Business</a>
-                                    <h4 className="courses-title"><a href="courses-details.html">Bachelor of Business Administration</a></h4>
+                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
+                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Francais</a></h4>
+                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>French</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
                                         <p className="duration">Durée: <span> 6 mois</span></p>
                                         <p className="fee">Frais: <span> $540</span></p>
@@ -87,21 +84,18 @@ class TopCourses extends Component {
                                         <p className="fee">Fee: <span> $540</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/register">Postuler en ligne</a><br/>
-                                        <a className="more" href="/contact">Lire la suite <i className="fal fa-chevron-right"></i></a>
+                                        <a className="apply" href="/services-tutoring-french">Postuler en ligne</a><br/>
                                     </div>
                                     <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/register">Online Apply</a><br/>
-                                        <a className="more" href="/contact">Read more <i className="fal fa-chevron-right"></i></a>
+                                        <a className="apply" href="/services-tutoring-french">Online Apply</a><br/>
                                     </div>
+                                   
                                 </div>
                             </div>
                             <div className="col-lg-3 col-sm-6 courses-col">
-                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.8s">
-                                    <a href="/#" className="category">#Marketing</a>
-                                    <h4 className="courses-title">
-                                        <a href="courses-details.html">Social & Digital <br/> Marketing</a>
-                                    </h4>
+                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
+                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Anglais</a></h4>
+                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>English</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
                                         <p className="duration">Durée: <span> 6 mois</span></p>
                                         <p className="fee">Frais: <span> $540</span></p>
@@ -111,101 +105,12 @@ class TopCourses extends Component {
                                         <p className="fee">Fee: <span> $540</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/register">Postuler en ligne</a><br/>
-                                        <a className="more" href="/contact">Lire la suite <i className="fal fa-chevron-right"></i></a>
+                                        <a className="apply" href="/services-tutoring-english">Postuler en ligne</a><br/>
                                     </div>
                                     <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/register">Online Apply</a><br/>
-                                        <a className="more" href="/contact">Read more <i className="fal fa-chevron-right"></i></a>
+                                        <a className="apply" href="/services-tutoring-english">Online Apply</a><br/>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6 courses-col">
-                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1s">
-                                    <a href="/#" className="category">#Business</a>
-                                    <h4 className="courses-title"><a href="courses-details.html">Bachelor of Business Administration</a></h4>
-                                    <div className="duration-fee" style={hideEnglish}>
-                                        <p className="duration">Durée: <span> 6 mois</span></p>
-                                        <p className="fee">Frais: <span> $540</span></p>
-                                    </div>
-                                    <div className="duration-fee" style={hideFrench}>
-                                        <p className="duration">Duration: <span> 6 months</span></p>
-                                        <p className="fee">Fee: <span> $540</span></p>
-                                    </div>
-                                    <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/register">Postuler en ligne</a><br/>
-                                        <a className="more" href="/contact">Lire la suite <i className="fal fa-chevron-right"></i></a>
-                                    </div>
-                                    <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/register">Online Apply</a><br/>
-                                        <a className="more" href="/contact">Read more <i className="fal fa-chevron-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6 courses-col">
-                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1.2s">
-                                    <a href="/#" className="category">#Marketing</a>
-                                    <h4 className="courses-title"><a href="courses-details.html">Social & Digital <br/> Marketing</a></h4>
-                                    <div className="duration-fee" style={hideEnglish}>
-                                        <p className="duration">Durée: <span> 6 mois</span></p>
-                                        <p className="fee">Frais: <span> $540</span></p>
-                                    </div>
-                                    <div className="duration-fee" style={hideFrench}>
-                                        <p className="duration">Duration: <span> 6 months</span></p>
-                                        <p className="fee">Fee: <span> $540</span></p>
-                                    </div>
-                                    <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/register">Postuler en ligne</a><br/>
-                                        <a className="more" href="/contact">Lire la suite <i className="fal fa-chevron-right"></i></a>
-                                    </div>
-                                    <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/register">Online Apply</a><br/>
-                                        <a className="more" href="/contact">Read more <i className="fal fa-chevron-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6 courses-col">
-                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1.4s">
-                                    <a href="/#" className="category">#Science</a>
-                                    <h4 className="courses-title"><a href="courses-details.html">Applied <br/> Mathematics</a></h4>
-                                    <div className="duration-fee" style={hideEnglish}>
-                                        <p className="duration">Durée: <span> 6 mois</span></p>
-                                        <p className="fee">Frais: <span> $540</span></p>
-                                    </div>
-                                    <div className="duration-fee" style={hideFrench}>
-                                        <p className="duration">Duration: <span> 6 months</span></p>
-                                        <p className="fee">Fee: <span> $540</span></p>
-                                    </div>
-                                    <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/register">Postuler en ligne</a><br/>
-                                        <a className="more" href="/contact">Lire la suite <i className="fal fa-chevron-right"></i></a>
-                                    </div>
-                                    <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/register">Online Apply</a><br/>
-                                        <a className="more" href="/contact">Read more <i className="fal fa-chevron-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-sm-6 courses-col">
-                                <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="1.6s">
-                                    <a href="/#" className="category">#Science</a>
-                                    <h4 className="courses-title"><a href="courses-details.html">Computer Science & Engineering</a></h4>
-                                    <div className="duration-fee" style={hideEnglish}>
-                                        <p className="duration">Durée: <span> 6 mois</span></p>
-                                        <p className="fee">Frais: <span> $540</span></p>
-                                    </div>
-                                    <div className="duration-fee" style={hideFrench}>
-                                        <p className="duration">Duration: <span> 6 months</span></p>
-                                        <p className="fee">Fee: <span> $540</span></p>
-                                    </div>
-                                    <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/register">Postuler en ligne</a><br/>
-                                        <a className="more" href="/contact">Lire la suite <i className="fal fa-chevron-right"></i></a>
-                                    </div>
-                                    <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/register">Online Apply</a><br/>
-                                        <a className="more" href="/contact">Read more <i className="fal fa-chevron-right"></i></a>
-                                    </div>
+                                   
                                 </div>
                             </div>
                         </div>
