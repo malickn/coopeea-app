@@ -34,12 +34,12 @@ class TopCourses extends Component {
                                     <h4 className="courses-title"><a href="/#" style={hideEnglish}>Maths</a></h4>
                                     <h4 className="courses-title"><a href="/#" style={hideFrench}>Maths</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="duration">Durée: <span> 6 mois</span></p>
-                                        <p className="fee">Frais: <span> $540</span></p>
+                                        <p className="fee">Frais : <span> 40$/h</span></p>
+                                        <p className="fee">Frais (Groupe): <span> 25$/h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="duration">Duration: <span> 6 months</span></p>
-                                        <p className="fee">Fee: <span> $540</span></p>
+                                        <p className="fee">Fee: <span> $40/h</span></p>
+                                        <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
                                         <a className="apply" href="/services-tutoring-maths">Postuler en ligne</a><br/>
@@ -55,12 +55,12 @@ class TopCourses extends Component {
                                     <h4 className="courses-title"><a href="/#" style={hideEnglish}>Science et Tech</a></h4>
                                     <h4 className="courses-title"><a href="/#" style={hideFrench}>Science & Tech</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="duration">Durée: <span> 6 mois</span></p>
-                                        <p className="fee">Frais: <span> $540</span></p>
+                                        <p className="fee">Frais : <span> 40$/h</span></p>
+                                        <p className="fee">Frais (Groupe): <span> 25$/h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="duration">Duration: <span> 6 months</span></p>
-                                        <p className="fee">Fee: <span> $540</span></p>
+                                        <p className="fee">Fee: <span> $40/h</span></p>
+                                        <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
                                         <a className="apply" href="/services-tutoring-sciencetechnology">Postuler en ligne</a><br/>
@@ -76,12 +76,12 @@ class TopCourses extends Component {
                                     <h4 className="courses-title"><a href="/#" style={hideEnglish}>Francais</a></h4>
                                     <h4 className="courses-title"><a href="/#" style={hideFrench}>French</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="duration">Durée: <span> 6 mois</span></p>
-                                        <p className="fee">Frais: <span> $540</span></p>
+                                        <p className="fee">Frais : <span> 40$/h</span></p>
+                                        <p className="fee">Frais (Groupe): <span> 25$/h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="duration">Duration: <span> 6 months</span></p>
-                                        <p className="fee">Fee: <span> $540</span></p>
+                                        <p className="fee">Fee: <span> $40/h</span></p>
+                                        <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
                                         <a className="apply" href="/services-tutoring-french">Postuler en ligne</a><br/>
@@ -97,12 +97,12 @@ class TopCourses extends Component {
                                     <h4 className="courses-title"><a href="/#" style={hideEnglish}>Anglais</a></h4>
                                     <h4 className="courses-title"><a href="/#" style={hideFrench}>English</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="duration">Durée: <span> 6 mois</span></p>
-                                        <p className="fee">Frais: <span> $540</span></p>
+                                        <p className="fee">Frais : <span> 40$/h</span></p>
+                                        <p className="fee">Frais (Groupe): <span> 25$/h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="duration">Duration: <span> 6 months</span></p>
-                                        <p className="fee">Fee: <span> $540</span></p>
+                                        <p className="fee">Fee: <span> $40/h</span></p>
+                                        <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
                                         <a className="apply" href="/services-tutoring-english">Postuler en ligne</a><br/>

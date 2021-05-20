@@ -29,10 +29,10 @@ class Features extends Component {
                                             <img src="assets/images/icon/icon-2-1.png" alt="Icon" />
                                         </div>
                                         <div className="item-content media-body" style={hideEnglish}>
-                                            <p>250+ <br/>Cours</p>
+                                            <p>4+ <br/>Cours</p>
                                         </div>
                                         <div className="item-content media-body" style={hideFrench}>
-                                            <p>250+ <br/>Courses</p>
+                                            <p>4+ <br/>Courses</p>
                                         </div>
                                     </div>
                                     <div className="single-features-item d-flex align-items-center wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.6s">

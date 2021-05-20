@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import {connect } from 'react-redux';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Newsletter from '../components/Newsletter';
 
-
-class Members extends Component {
+class ServicesForm extends Component {
     constructor(props) {
         super(props);
         this.state = { 
             firstname: '',
             lastname: '',
             email : '',
+            grade : '',
+            year : '',
             comment : '',
             successMessage : '',
             errorMessage : '' ,
@@ -27,8 +25,11 @@ class Members extends Component {
     handleEmail = (event) => {
         this.setState({email : event.target.value});
     }
-    handleMemberType = (event) => {
-        this.setState({membertype : event.target.value});
+    handleGrade = (event) => {
+        this.setState({grade : event.target.value});
+    }
+    handleYear = (event) => {
+        this.setState({year : event.target.value});
     }
     handleComment = (event) => {
         this.setState({comment : event.target.value});
@@ -38,7 +39,7 @@ class Members extends Component {
         e.preventDefault();
         this.setState({errorMessage : ''})
         this.setState({successMessage : ''})
-        const error = this.validate(this.state.firstname, this.state.lastname, this.state.email);
+        const error = this.validate(this.state.firstname, this.state.lastname, this.state.email, this.state.grade, this.state.year);
         this.setState({show : true})
         if(error.length > 0){
             this.setState({errorMessage : error})
@@ -48,11 +49,12 @@ class Members extends Component {
                     firstname:this.state.firstname,
                     lastname:this.state.lastname,
                     email : this.state.email,
-                    membertype: this.state.membertype,
+                    grade : this.state.grade,
+                    year : this.state.year,
                     comment : this.state.comment,
                     lg : this.props.language
             };
-            const endpoint = 'http://coopeea.facemontreal.com/api/member.php';
+            const endpoint = 'http://coopeea.facemontreal.com/api/register.php';
 
             fetch(endpoint, {
                 "method": "POST",
@@ -60,14 +62,15 @@ class Members extends Component {
             })
             .then(response => response.json())
             .then(response => {     
-                if(response.action === "failed"){
+                if(response.action === "failed"){             
                     this.setState({errorMessage : response.msg})
                 }else{
                     this.setState({successMessage : response.msg})
                     this.setState({firstname : ''});
                     this.setState({lastname : ''});
                     this.setState({email : ''});
-                    this.setState({membertype : 'Simple'});
+                    this.setState({grade : ''});
+                    this.setState({year : ''});
                     this.setState({comment : ''});
                 }
             })
@@ -77,7 +80,7 @@ class Members extends Component {
         }
     }
 
-    validate = (firstname, lastname, email) => {
+    validate = (firstname, lastname, email, grade, year) => {
         const errors = '';
         
         if (firstname.length === 0) {
@@ -100,12 +103,17 @@ class Members extends Component {
             const n = (this.props.language !== 'English') ? "Email should contain at least one dot" : "Le courriel doit contenir un point";
             return n;
         }
+        if (grade.length === 0) {
+            const n = (this.props.language !== 'English') ? "Please enter your grade" : "Veuillez saisir votre niveau";
+            return n;
+        }
+        if (year.length === 0) {
+            const n = (this.props.language !== 'English') ? "Please enter your year" : "Veuillez saisir votre année";
+            return n;
+        }
         return errors;
     }
-
-
     render() {
-
         const showMessage = {
             display : (this.state.show) ? "block" : "none"
         }
@@ -118,47 +126,18 @@ class Members extends Component {
         const hideFrench = {
             display : (this.props.language === 'English') ? "none" : "block"
         }
+
         const hideEnglish = {
             display : (this.props.language === 'English') ? "block" : "none"
         }
         return (
             <>
-            <Header />
-            <section className="page-banner">
-                <div className="page-banner-bg bg_cover" style={{backgroundImage: "url(assets/images/page-banner.jpg)"}}>
-                    <div className="container">
-                        <div className="banner-content text-center">
-                            <h2 className="title" style={hideEnglish}>S'inscrire</h2>
-                            <h2 className="title" style={hideFrench}>Register</h2>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section className="login-register" style={hideEnglish}>
-                <div className="container">
+            <section class="formular">
+                <div className="container" style={hideEnglish}>
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">Devenir membre</h2>
-                                <span className="line"></span>
-                                <div className="subtitle">Il existe deux types de membres :</div>
-                                <div className="ulitems">
-                                    <div className="ulitem">- Membre simple : Est membre actif toute personne ayant acquitté sa cotisation mais ne travaille pas dans la Coopérative. Un membre simple a le droit de participer à toutes les activités, de recevoir toute l'information diffusée par la Coopérative, notamment les avis de convocation aux Assemblées générales des membres, d'assister à ces Assemblées et d'y voter. Il a droit à des ristournes. Il est éligible comme administrateur de la Coopérative.</div>
-                                    <div className="ulitem">- Membre travailleur : Est membre travailleur toute personne ayant acquitté sa cotisation à des tâches dans la Coopérative. Un membre travailleur a le droit de participer à toutes les activités, de recevoir toute l'information diffusée par la Coopérative, notamment les avis de convocation aux Assemblées générales des membres, d'assister à ces Assemblées et d'y voter. Il a droit à des honoraires pour son travail et à des ristournes. Il est éligible comme administrateur de la Coopérative.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br/>
-                    <div className="row justify-content-center">
-                        <div className="col-lg-6">
-                            <div className="login-register-content">
-                                <h4 className="title">Créer un nouveau compte</h4>
-                                <div className="cf-msg"></div>
-                                <div className="login-register-form">
-                                    <form action="/#" method="post">
-                                        
+                                <form action="/#" method="post" id="form">
                                         <div className="single-form">
                                             <label>Prénom *</label>
                                             <input type="text" name="firstname" id="firstname" placeholder="Prénom" value={this.state.firstname} onChange={this.handleFirstname}/>
@@ -172,13 +151,14 @@ class Members extends Component {
                                             <input type="email" name="email" id="email" placeholder="Courriel" value={this.state.email} onChange={this.handleEmail}/>
                                         </div>
                                         <div className="single-form">
-                                            <label>Type de membre *</label>
-                                            <select className="custom-select" name="membertype" id="membertype" value={this.state.membertype} onChange={this.handleMemberType}>
-                                                <option value="Simple" selected>Simple</option>
-                                                <option value="Worker">Travailleur</option>
-                                            </select>
+                                            <label>Niveau *</label>
+                                            <input type="grade" name="grade" id="grade" placeholder="Primaire, secondaire" value={this.state.grade} onChange={this.handleGrade}/>
                                         </div>
                                        
+                                        <div className="single-form">
+                                            <label>Année *</label>
+                                            <input type="text" name="year" id="year" value={this.state.year} onChange={this.handleYear}/>
+                                        </div>
                                         <div className="single-form">
                                             <label>Commentaire</label>
                                             <textarea className="form-control" id="comment" name="comment" value={this.state.comment} rows="3" onChange={this.handleComment}></textarea>
@@ -197,35 +177,16 @@ class Members extends Component {
                                             <button className="main-btn btn-block" id="form-register" onClick={this.handleSumit}>S'inscrire</button>
                                         </div>
                                     </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>  
-                </div>
-            </section>
-            <section className="login-register" style={hideFrench}>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="section-title-2">
-                                <h2 className="title">Become a member</h2>
-                                <span className="line"></span>
-                                <div className="subtitle">There are two types of members:</div>
-                                <div className="ulitems">
-                                    <div className="ulitem">- Simple member : Anyone who has paid their subscription but does not work in the Cooperative is an active member. A simple member has the right to participate in all activities, to receive all the information disseminated by the Cooperative, in particular notices of convocation to General Meetings of members, to attend these Meetings and to vote there. He is entitled to rebates. He is eligible as a director of the Cooperative.</div>
-                                    <div className="ulitem">- Worker member : A worker member is any person who has paid their contribution to tasks in the Cooperative. A worker member has the right to participate in all activities, to receive all the information disseminated by the Cooperative, in particular the notices of convocation to the General Assemblies of the members, to attend these Assemblies and to vote there. He is entitled to fees for his work and to rebates. He is eligible as a director of the Cooperative.</div>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <br/>
-                    <div className="row justify-content-center">
-                        <div className="col-lg-6">
-                            <div className="login-register-content">
-                                <h4 className="title">Create a new account</h4>
-                                <div className="cf-msg"></div>
-                                <div className="login-register-form">
-                                    <form action="/#" method="post">
+                </div>
+                <div className="container" style={hideFrench}>
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="section-title-2">
+                                
+                                <form action="/#" method="post">
                                         
                                         <div className="single-form">
                                             <label>First Name *</label>
@@ -240,13 +201,12 @@ class Members extends Component {
                                             <input type="email" name="email" id="email" placeholder="Email" value={this.state.email} onChange={this.handleEmail}/>
                                         </div>
                                         <div className="single-form">
-                                            <label>Member Type *</label>
-                                            
-                                                <select name="membertype" id="membertype" value={this.state.membertype} onChange={this.handleMemberType}>
-                                                    <option value="Simple" checked>Simple</option>
-                                                    <option value="Worker">Worker</option>
-                                                </select>
-                                            
+                                            <label>Grade *</label>
+                                            <input type="grade" name="grade" id="grade" placeholder="Primary, secondary" value={this.state.grade} onChange={this.handleGrade}/>
+                                        </div>
+                                        <div className="single-form">
+                                            <label>Year *</label>
+                                            <input type="text" name="year" id="year" value={this.state.year} onChange={this.handleYear}/>
                                         </div>
                                         <div className="single-form">
                                             <label>Comment</label>
@@ -265,16 +225,12 @@ class Members extends Component {
                                         <div className="single-form">
                                             <button className="main-btn btn-block" id="form-register" onClick={this.handleSumit}>Register</button>
                                         </div>
-                                        
                                     </form>
-                                </div>
                             </div>
                         </div>
-                    </div>  
+                    </div>
                 </div>
             </section>
-            <Newsletter />
-            <Footer />
             </>
         )
     }
@@ -286,4 +242,10 @@ const mapStateToProps = state => {
     };
 };
 
-export default connect(mapStateToProps)(Members);
+const mapDispatchToProps = dispatch => {
+    return{
+        onChangeLanguage: (language) => dispatch({ type: language }),
+    };
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(ServicesForm);

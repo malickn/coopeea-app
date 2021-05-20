@@ -17,31 +17,31 @@ class Counterstart extends Component {
                         <div className="row">
                             <div className="col-sm-3 col-6 counter-col">
                                 <div className="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.2s" style={hideEnglish}>
-                                    <span className="counter-count"><span className="count">240</span> +</span>
+                                    <span className="counter-count"><span className="count">80</span> +</span>
                                     <p>Etudiants</p>
                                 </div>
                                 <div className="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.2s" style={hideFrench}>
-                                    <span className="counter-count"><span className="count">240</span> +</span>
+                                    <span className="counter-count"><span className="count">80</span> +</span>
                                     <p>Students</p>
                                 </div>
                             </div>
                             <div className="col-sm-3 col-6 counter-col">
                                 <div className="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.4s" style={hideEnglish}>
-                                    <span className="counter-count"><span className="count">5</span></span>
+                                    <span className="counter-count"><span className="count">2</span></span>
                                     <p>Filières</p>
                                 </div>
                                 <div className="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.4s" style={hideFrench}>
-                                    <span className="counter-count"><span className="count">5</span></span>
+                                    <span className="counter-count"><span className="count">2</span></span>
                                     <p>Sectors</p>
                                 </div>
                             </div>
                             <div className="col-sm-3 col-6 counter-col">
                                 <div className="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.6s" style={hideEnglish}>
-                                    <span className="counter-count"><span className="count">15</span></span>
+                                    <span className="counter-count"><span className="count">4</span></span>
                                     <p>Formations</p>
                                 </div>
                                 <div className="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.6s" style={hideFrench}>
-                                    <span className="counter-count"><span className="count">15</span></span>
+                                    <span className="counter-count"><span className="count">4</span></span>
                                     <p>Training</p>
                                 </div>
                             </div>
