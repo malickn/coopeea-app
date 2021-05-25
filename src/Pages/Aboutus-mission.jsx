@@ -51,9 +51,15 @@ class AboutUsMission extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">Mission & values</h2>
+                                <h2 className="title">Mission and Standards</h2>
                                 <span className="line"></span>
-                                <p>Mission & values</p>
+                                <div className="subtitle">COOPEEA's main mission is to support young people's education in order to stimulate their interest and increase their success.</div>
+                                <div className="ulitems">
+                                    <div>COOPEEA's values are: </div>
+                                    <div className="ulitem">- Ethics and Equity</div>
+                                    <div className="ulitem">- Solidarity and Perseverance</div>
+                                    <div className="ulitem">- Team spirit</div>
+                                </div>
                             </div>
                         </div>
                     </div>

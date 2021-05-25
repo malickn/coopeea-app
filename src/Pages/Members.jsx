@@ -81,11 +81,11 @@ class Members extends Component {
         const errors = '';
         
         if (firstname.length === 0) {
-            const n = (this.props.language !== 'English') ? "Please enter your firstname" : "Veuillez saisir votre prénom";
+            const n = (this.props.language !== 'English') ? "Please enter your First Name" : "Veuillez saisir votre prénom";
             return n;
         }
         if (lastname.length === 0) {
-            const n = (this.props.language !== 'English') ? "Please enter your lastname" : "Veuillez saisir votre nom";
+            const n = (this.props.language !== 'English') ? "Please enter your Last Name" : "Veuillez saisir votre nom";
             return n;
         }
         if (email.length < 5) {
@@ -212,8 +212,8 @@ class Members extends Component {
                                 <span className="line"></span>
                                 <div className="subtitle">There are two types of members:</div>
                                 <div className="ulitems">
-                                    <div className="ulitem">- Simple member : Anyone who has paid their subscription but does not work in the Cooperative is an active member. A simple member has the right to participate in all activities, to receive all the information disseminated by the Cooperative, in particular notices of convocation to General Meetings of members, to attend these Meetings and to vote there. He is entitled to rebates. He is eligible as a director of the Cooperative.</div>
-                                    <div className="ulitem">- Worker member : A worker member is any person who has paid their contribution to tasks in the Cooperative. A worker member has the right to participate in all activities, to receive all the information disseminated by the Cooperative, in particular the notices of convocation to the General Assemblies of the members, to attend these Assemblies and to vote there. He is entitled to fees for his work and to rebates. He is eligible as a director of the Cooperative.</div>
+                                    <div className="ulitem">- Single member : An active member is any person who has paid his or her dues but does not work for the Cooperative. A simple member has the right to participate in all activities, to receive all of the information disseminated by the Cooperative, including notices of general meetings of members, to attend these assemblies and to vote. S/He is entitled to dividends. S/He is eligible to be a director of the Cooperative.</div>
+                                    <div className="ulitem">- Working member : A working member is any person who has paid his dues to perform duties in the Cooperative. A working member has the right to participate in all the activities, to receive all the information disseminated by the Cooperative, including notices of general meetings of members, to attend these meetings and to vote. He is entitled to an honorarium for his work and to dividends. He/she is eligible to be a director of the Cooperative.</div>
                                 </div>
                             </div>
                         </div>
@@ -243,7 +243,7 @@ class Members extends Component {
                                             <label>Member Type *</label>
                                             
                                                 <select name="membertype" id="membertype" value={this.state.membertype} onChange={this.handleMemberType}>
-                                                    <option value="Simple" checked>Simple</option>
+                                                    <option value="Simple" checked>Single</option>
                                                     <option value="Worker">Worker</option>
                                                 </select>
                                             

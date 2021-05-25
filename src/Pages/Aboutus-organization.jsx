@@ -65,23 +65,23 @@ class AboutUsOrganization extends Component {
                                 <h2 className="title">About Us</h2>
                                 <span className="line"></span>
                                 <div className="subtitle">
-                                    The COOPEEA offers teachers, researchers and education specialists a framework to support and accompany educational policies. COOPEEA intervenes in terms of academic support, strategies and educational innovations promoting motivation and academic success.
+                                COOPEEA (Cooperative of Community Action Teachers) provides a framework for teachers,researchers and education specialists to support and accompany educational policies. COOPEEA intervenes in terms of academic support, strategies and pedagogical innovations that promote motivation and academic success.
                                 </div>
                                 <div className="organisation">
                                     <img src="assets/images/organigramme.png" alt="Organigramme"/>
                                 </div>
                                 <div className="ulitems">
-                                    <div className="ulitem">- <span>Board of directors</span> :  He is responsible for representing the members. He assumes all the tasks related to the proper functioning of the Cooperative and any mandate entrusted by the General Assembly of members.</div>
-                                    <div className="ulitem">- <span>Skills development committee</span> : It implements strategies allowing members :
+                                    <div className="ulitem">- <span>The Board of Administration</span>: is responsible for representing the members. It assumes all the tasks related to the proper functioning of the Cooperative and any mandate given by the General Assembly of members.</div>
+                                    <div className="ulitem">- <span>Competency Development Committee</span>: Implements strategies that allow its members to:
                                         <ul>
-                                            <li>To exchange their know-how</li>
-                                            <li>To share knowledge and educational resources</li>
-                                            <li>To support new colleagues in their integration and integration</li>
+                                            <li>Share expertise </li>
+                                            <li>Share knowledge and pedagogical resources</li>
+                                            <li>Support new colleagues in their induction and integration</li>
                                         </ul>
                                     </div>
                                     
-                                    <div className="ulitem">- <span>Mediation and Orientation Committee</span> : This committee is the link between schools and parents, in order to better inform them about the education system. It also takes care of questions related to the orientation of young people, towards the right resources for their academic success.</div>
-                                    <div className="ulitem">- <span>School support committee</span> : This committee provides support for the learning difficulties of young people. It provides young people with all the resources and support necessary for their academic success.</div>
+                                    <div className="ulitem">- <span>Mediation and Orientation Committee</span> : This committee is the bridge between the schools and the parents of students, in order to better inform them about the educational system. It also deals with issues related to the orientation of young people towards the appropriate resources for their academic success.</div>
+                                    <div className="ulitem">- <span>School Support Committee</span> : This committee provides support for young people with learning difficulties. It provides young people with all the resources and support they need to succeed in school.</div>
                                 </div>
                             </div>
                         </div>

@@ -197,11 +197,11 @@ class ServicesForm extends Component {
                                             <input type="text" name="lastname" id="lastname" placeholder="Last Name" value={this.state.lastname} onChange={this.handleLastname}/>
                                         </div>
                                         <div className="single-form">
-                                            <label>Email address *</label>
+                                            <label>Email *</label>
                                             <input type="email" name="email" id="email" placeholder="Email" value={this.state.email} onChange={this.handleEmail}/>
                                         </div>
                                         <div className="single-form">
-                                            <label>Grade *</label>
+                                            <label>Grade (elementary, high school)*</label>
                                             <input type="grade" name="grade" id="grade" placeholder="Primary, secondary" value={this.state.grade} onChange={this.handleGrade}/>
                                         </div>
                                         <div className="single-form">

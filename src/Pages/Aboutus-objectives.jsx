@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Newsletter from '../components/Newsletter';
 
 
-class AboutUsGoals extends Component {
+class AboutUsObjectives extends Component {
     
     render() {
         const hideFrench = {
@@ -23,7 +23,7 @@ class AboutUsGoals extends Component {
                     <div className="container">
                         <div className="banner-content text-center">
                             <h2 className="title" style={hideEnglish}>Objectifs</h2>
-                            <h2 className="title" style={hideFrench}>Goals</h2>
+                            <h2 className="title" style={hideFrench}>Objectives</h2>
                         </div>
                     </div>
                 </div>
@@ -53,9 +53,18 @@ class AboutUsGoals extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">Goals</h2>
+                                <h2 className="title">Objectives</h2>
                                 <span className="line"></span>
-                                <p>Goals</p>
+                                <span className="line"></span>
+                                <div className="subtitle">The Cooperative pursues these objectives:</div>
+                                <div className="ulitems">
+                                    <div className="ulitem">1.	To promote academic success for youth and adults</div>
+                                    <div className="ulitem">2.	To contribute to the reduction of school dropout among young people from cultural communities.</div>
+                                    <div className="ulitem">3.	To welcome and integrate new teachers from immigrant backgrounds.</div>
+                                    <div className="ulitem">4.	Promote exchanges between Canadian and African students.</div>
+                                    <div className="ulitem">5.	Promote exchanges of expertise between Canadian and African education professionals.</div>
+                                    <div className="ulitem">6.	Develop partnerships with various organizations involved in education.</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -80,4 +89,4 @@ const mapDispatchToProps = dispatch => {
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(AboutUsGoals);
+export default connect(mapStateToProps, mapDispatchToProps)(AboutUsObjectives);

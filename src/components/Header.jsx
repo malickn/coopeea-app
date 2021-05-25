@@ -95,7 +95,7 @@ class Header extends Component {
                                             <ul className="nav-dropdown nav-submenu">
                                                 <li><a href="/aboutus-organization">L'Organisation</a></li>
                                                 <li><a href="/aboutus-mission">Mission et valeurs</a></li>
-                                                <li><a href="/aboutus-goals">Objectifs</a></li>
+                                                <li><a href="/aboutus-objectives">Objectifs</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -112,14 +112,14 @@ class Header extends Component {
                                                     </ul>
                                                 </li>
                                                 <li><a href="/services-development-competence">Développement de compétence</a></li>
-                                                <li><a href="/services-guidance-mediation">Orientation et Médiation</a></li>
+                                                <li><a href="/services-orientation-mediation">Orientation et Médiation</a></li>
                                                 {/* <li><a href="/services-mentoring">Mentorat</a></li> */}
-                                                {/* <li>
+                                                <li>
                                                     <a href="/#">Activités parascolaires</a>
                                                     <ul className="nav-dropdown nav-submenu">
                                                         <li><a href="/services-digital-culture">Culture numérique (cybersécurité, robotique, codage)</a></li>                                                  
                                                     </ul>
-                                                </li>                                             */}
+                                                </li>
                                                 <li><a href="/services-support-international-education">Appui et accompagnement de politiques éducatives à l'international</a></li>
                                             </ul>
                                         </li>
@@ -139,8 +139,8 @@ class Header extends Component {
                                             <a href="/#">About Us</a>
                                             <ul className="nav-dropdown nav-submenu">
                                                 <li><a href="/aboutus-organization">Organization</a></li>
-                                                <li><a href="/aboutus-mission">Mission & values</a></li>
-                                                <li><a href="/aboutus-goals">Goals</a></li>
+                                                <li><a href="/aboutus-mission">Mission and Standards</a></li>
+                                                <li><a href="/aboutus-objectives">Objectives</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -156,15 +156,15 @@ class Header extends Component {
                                                         <li><a href="/services-tutoring-english">English</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="/services-development-competence">Competence development</a></li>
-                                                <li><a href="/services-guidance-mediation">Guidance and Mediation</a></li>
+                                                <li><a href="/services-development-competence">Competence Development</a></li>
+                                                <li><a href="/services-orientation-mediation">Orientation and Mediation</a></li>
                                                 {/* <li><a href="/services-mentoring">Mentoring</a></li> */}
-                                                {/* <li>
+                                                <li>
                                                     <a href="/#">Extracurricular activities</a>
                                                     <ul className="nav-dropdown nav-submenu">
                                                         <li><a href="/services-digital-culture">Digital culture (cybersecurity, robotics, coding)</a></li>                                                  
                                                     </ul>
-                                                </li>                                             */}
+                                                </li>                                             
                                                 <li><a href="/services-support-international-education">Support for international educational policies</a></li>
                                             </ul>
                                         </li>

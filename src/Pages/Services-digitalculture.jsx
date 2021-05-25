@@ -36,7 +36,20 @@ class ServicesDigitalCulture extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">Services</h2>
                                 <span className="line"></span>
-                                <p>Culture numérique (cybersécurité, robotique, codage)</p>
+                                <p>Culture numérique</p>
+                                <div className="subtitle">
+                                    L'initiation à la cybersécurité, au codage et à la robotique comme activités parascolaires s'inscrit dans une volonté de mieux préparer nos jeunes à l'environnement dans lequel ils évoluent.<br/><br/>
+                                    Des activités scientifiques dans le domaine de la cybersécurité, du codage et de la robotique sont d'autant plus pertinentes aujourd'hui que le numérique est partout, dans tous les domaines où les jeunes seront appelés à travailler plus tard.<br/><br/>
+                                    Au-delà de ces considérations dans un futur proche, apprendre à coder permet à nos jeunes :
+                                </div>
+                                <div className="ulitems">
+                                    <div className="ulitem">- À être plus créatifs ; leur posture face aux jeux vidéo change. </div>
+                                    <div className="ulitem">- À mieux structurer leur raisonnement.</div>
+                                    <div className="ulitem">- À développer des stratégies de résolution de problème.</div>
+                                    <div className="ulitem">- À mieux travailler de façon collaborative.</div>
+                                    <div className="ulitem">- D'être moins dépendant de ceux qui détiennent les technologies.</div>
+                                </div>
+                                <div className="subtitle">En résumé, développer leur culture numérique leur permettra d'être bien outillés face à leur avenir.</div>
                             </div>
                         </div>
                     </div>
@@ -47,7 +60,20 @@ class ServicesDigitalCulture extends Component {
                             <div className="section-title-2">
                                 <h2 className="title">Services</h2>
                                 <span className="line"></span>
-                                <p>Digital culture (cybersecurity, robotics, coding)</p>
+                                <p>Digital Culture</p>
+                                <div className="subtitle">
+                                    L'initiation à la cybersécurité, au codage et à la robotique comme activités parascolaires s'inscrit dans une volonté de mieux préparer nos jeunes à l'environnement dans lequel ils évoluent.<br/><br/>
+                                    Des activités scientifiques dans le domaine de la cybersécurité, du codage et de la robotique sont d'autant plus pertinentes aujourd'hui que le numérique est partout, dans tous les domaines où les jeunes seront appelés à travailler plus tard.<br/><br/>
+                                    Au-delà de ces considérations dans un futur proche, apprendre à coder permet à nos jeunes :
+                                </div>
+                                <div className="ulitems">
+                                    <div className="ulitem">- À être plus créatifs ; leur posture face aux jeux vidéo change. </div>
+                                    <div className="ulitem">- À mieux structurer leur raisonnement.</div>
+                                    <div className="ulitem">- À développer des stratégies de résolution de problème.</div>
+                                    <div className="ulitem">- À mieux travailler de façon collaborative.</div>
+                                    <div className="ulitem">- D'être moins dépendant de ceux qui détiennent les technologies.</div>
+                                </div>
+                                <div className="subtitle">En résumé, développer leur culture numérique leur permettra d'être bien outillés face à leur avenir.</div>
                             </div>
                         </div>
                     </div>

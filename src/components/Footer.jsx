@@ -21,15 +21,15 @@ class Footer extends Component {
                                     <ul className="link-list">
                                         <li><a href="/aboutus-organization">L'Organisation</a></li>
                                         <li><a href="/aboutus-mission">Mission et valeurs</a></li>
-                                        <li><a href="/aboutus-goals">Objectifs</a></li>
+                                        <li><a href="/aboutus-objectives">Objectifs</a></li>
                                     </ul>
                                 </div>
                                 <div className="footer-link mt-45" style={hideFrench}>
                                     <h4 className="footer-title">About Us</h4>
                                     <ul className="link-list">
                                         <li><a href="/aboutus-organization">Organization</a></li>
-                                        <li><a href="/aboutus-mission">Mission & values</a></li>
-                                        <li><a href="/aboutus-goals">Goals</a></li>
+                                        <li><a href="/aboutus-mission">Mission and Standards</a></li>
+                                        <li><a href="/aboutus-objectives">Objectives</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -38,16 +38,18 @@ class Footer extends Component {
                                     <h4 className="footer-title">Nos services</h4>
                                     <ul className="link-list">
                                         <li><a href="/services-development-competence">Développement de compétence</a></li>
-                                        <li><a href="/services-guidance-mediation">Orientation et Médiation</a></li>
+                                        <li><a href="/services-orientation-mediation">Orientation et Médiation</a></li>
                                         {/* <li><a href="/services-mentoring">Mentorat</a></li> */}
+                                        <li><a href="/services-digital-culture">Culture numérique</a></li>
                                     </ul>
                                 </div>
                                 <div className="footer-link mt-45" style={hideFrench}>
                                     <h4 className="footer-title">Our services</h4>
                                     <ul className="link-list">
                                         <li><a href="/services-development-competence">Competence developpement</a></li>
-                                        <li><a href="/services-guidance-mediation">Guidance & Mediation</a></li>
+                                        <li><a href="/services-orientation-mediation">Orientation and Mediation </a></li>
                                         {/* <li><a href="/services-mentoring">Mentoring</a></li> */}
+                                        <li><a href="/services-digital-culture">Digital culture</a></li>
                                     </ul>
                                 </div>
                             </div>
