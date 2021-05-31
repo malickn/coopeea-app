@@ -55,7 +55,7 @@ class Footer extends Component {
                             </div>
                             <div className="col-md-3 col-sm-6">
                                 <div className="footer-link mt-45" style={hideEnglish}>
-                                    <h4 className="footer-title">Soutien scolaire</h4>
+                                    <a href="/services-tutoring"><h4 className="footer-title">Soutien scolaire</h4></a>
                                     <ul className="link-list">
                                         <li><a href="/services-tutoring-maths">Maths</a></li>
                                         <li><a href="/services-tutoring-sciencetechnology">Science et Technologie</a></li>
@@ -64,7 +64,7 @@ class Footer extends Component {
                                     </ul>
                                 </div>
                                 <div className="footer-link mt-45" style={hideFrench}>
-                                    <h4 className="footer-title">Tutoring</h4>
+                                    <a href="/services-tutoring"><h4 className="footer-title">Tutoring</h4></a>
                                     <ul className="link-list">
                                         <li><a href="/services-tutoring-maths">Maths</a></li>
                                         <li><a href="/services-tutoring-sciencetechnology">Science & Technology</a></li>

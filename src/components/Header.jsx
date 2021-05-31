@@ -103,7 +103,7 @@ class Header extends Component {
                                             <ul className="nav-dropdown nav-submenu">
                                                 {/* <li><a href="/services-tutoring">Soutien scolaire</a></li> */}
                                                 <li>
-                                                    <a href="/#">Soutien scolaire</a>
+                                                    <a href="/services-tutoring">Soutien scolaire</a>
                                                     <ul className="nav-dropdown nav-submenu">
                                                         <li><a href="/services-tutoring-maths">Maths</a></li>
                                                         <li><a href="/services-tutoring-sciencetechnology">Science et Technologie</a></li>
@@ -148,7 +148,7 @@ class Header extends Component {
                                             <ul className="nav-dropdown nav-submenu">
                                                 {/* <li><a href="/services-tutoring">Tutoring</a></li> */}
                                                 <li>
-                                                    <a href="/#">Tutoring</a>
+                                                    <a href="/services-tutoring">Tutoring</a>
                                                     <ul className="nav-dropdown nav-submenu">
                                                         <li><a href="/services-tutoring-maths">Maths</a></li>
                                                         <li><a href="/services-tutoring-sciencetechnology">Science & Technology</a></li>
