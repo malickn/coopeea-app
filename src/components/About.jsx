@@ -18,13 +18,13 @@ class About extends Component {
                             <div className="about-content mt-40" style={hideEnglish}>
                                 <h2 className="about-title">Meilleur environnement éducatif</h2>
                                 <span className="line"></span>
-                                <p>Nous sommes dévoués à la réussite de nos étudiants, des adultes comme vous, qui comprennent que l'obtention d'une formation peut conduire à une vie meilleure. </p>
+                                <p>Nous sommes dévoués à la réussite des jeunes comme vous, qui comprennent que l'obtention d'une formation peut conduire à une vie meilleure. </p>
                                 <a href="//www.coopeea.org" className="main-btn">Explorer</a>
                             </div>
                             <div className="about-content mt-40" style={hideFrench}>
                                 <h2 className="about-title">Best Educational Environment</h2>
                                 <span className="line"></span>
-                                <p>We are dedicated to the success of our students, adults like you, who understand that getting an education can lead to a better life. </p>
+                                <p>We are dedicated to the success of young people like you, who understand that getting an education can lead to a better life. </p>
                                 <a href="//www.coopeea.org" className="main-btn">Explore</a>
                             </div>
                         </div>

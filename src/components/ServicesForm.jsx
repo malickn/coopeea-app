@@ -54,7 +54,7 @@ class ServicesForm extends Component {
                     comment : this.state.comment,
                     lg : this.props.language
             };
-            const endpoint = 'http://coopeea.facemontreal.com/api/register.php';
+            const endpoint = 'http://coopeea.org/api/register.php';
 
             fetch(endpoint, {
                 "method": "POST",

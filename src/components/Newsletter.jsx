@@ -28,7 +28,7 @@ class Newsletter extends Component {
                     email : this.state.email,
                     lg : this.props.language
             };
-            const endpoint = 'http://coopeea.facemontreal.com/api/newsletter.php';
+            const endpoint = 'http://coopeea.org/api/newsletter.php';
 
             fetch(endpoint, {
                 "method": "POST",

@@ -42,10 +42,10 @@ class TopCourses extends Component {
                                         <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/services-tutoring-maths">Postuler en ligne</a><br/>
+                                        <a className="apply" href="/services-tutoring-maths">S'inscrire</a><br/>
                                     </div>
                                     <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/services-tutoring-maths">Online Apply</a><br/>
+                                        <a className="apply" href="/services-tutoring-maths">Register</a><br/>
                                     </div>
                                    
                                 </div>
@@ -63,10 +63,10 @@ class TopCourses extends Component {
                                         <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/services-tutoring-sciencetechnology">Postuler en ligne</a><br/>
+                                        <a className="apply" href="/services-tutoring-sciencetechnology">S'inscrire</a><br/>
                                     </div>
                                     <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/services-tutoring-sciencetechnology">Online Apply</a><br/>
+                                        <a className="apply" href="/services-tutoring-sciencetechnology">Register</a><br/>
                                     </div>
                                    
                                 </div>
@@ -84,10 +84,10 @@ class TopCourses extends Component {
                                         <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/services-tutoring-french">Postuler en ligne</a><br/>
+                                        <a className="apply" href="/services-tutoring-french">S'inscrire</a><br/>
                                     </div>
                                     <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/services-tutoring-french">Online Apply</a><br/>
+                                        <a className="apply" href="/services-tutoring-french">Register</a><br/>
                                     </div>
                                    
                                 </div>
@@ -105,10 +105,10 @@ class TopCourses extends Component {
                                         <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
-                                        <a className="apply" href="/services-tutoring-english">Postuler en ligne</a><br/>
+                                        <a className="apply" href="/services-tutoring-english">S'inscrire</a><br/>
                                     </div>
                                     <div className="courses-link" style={hideFrench}>
-                                        <a className="apply" href="/services-tutoring-english">Online Apply</a><br/>
+                                        <a className="apply" href="/services-tutoring-english">Register</a><br/>
                                     </div>
                                    
                                 </div>

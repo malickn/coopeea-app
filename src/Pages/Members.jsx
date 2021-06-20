@@ -52,7 +52,7 @@ class Members extends Component {
                     comment : this.state.comment,
                     lg : this.props.language
             };
-            const endpoint = 'http://coopeea.facemontreal.com/api/member.php';
+            const endpoint = 'http://coopeea.org/api/member.php';
 
             fetch(endpoint, {
                 "method": "POST",
@@ -144,7 +144,7 @@ class Members extends Component {
                                 <span className="line"></span>
                                 <div className="subtitle">Il existe deux types de membres :</div>
                                 <div className="ulitems">
-                                    <div className="ulitem">- Membre simple : Est membre actif toute personne ayant acquitté sa cotisation mais ne travaille pas dans la Coopérative. Un membre simple a le droit de participer à toutes les activités, de recevoir toute l'information diffusée par la Coopérative, notamment les avis de convocation aux Assemblées générales des membres, d'assister à ces Assemblées et d'y voter. Il a droit à des ristournes. Il est éligible comme administrateur de la Coopérative.</div>
+                                    <div className="ulitem">- Membre simple : Est membre simple toute personne ayant acquitté sa cotisation mais ne travaille pas dans la Coopérative. Un membre simple a le droit de participer à toutes les activités, de recevoir toute l'information diffusée par la Coopérative, notamment les avis de convocation aux Assemblées générales des membres, d'assister à ces Assemblées et d'y voter. Il a droit à des ristournes. Il est éligible comme administrateur de la Coopérative.</div>
                                     <div className="ulitem">- Membre travailleur : Est membre travailleur toute personne ayant acquitté sa cotisation à des tâches dans la Coopérative. Un membre travailleur a le droit de participer à toutes les activités, de recevoir toute l'information diffusée par la Coopérative, notamment les avis de convocation aux Assemblées générales des membres, d'assister à ces Assemblées et d'y voter. Il a droit à des honoraires pour son travail et à des ristournes. Il est éligible comme administrateur de la Coopérative.</div>
                                 </div>
                             </div>
@@ -212,8 +212,8 @@ class Members extends Component {
                                 <span className="line"></span>
                                 <div className="subtitle">There are two types of members:</div>
                                 <div className="ulitems">
-                                    <div className="ulitem">- Single member : An active member is any person who has paid his or her dues but does not work for the Cooperative. A simple member has the right to participate in all activities, to receive all of the information disseminated by the Cooperative, including notices of general meetings of members, to attend these assemblies and to vote. S/He is entitled to dividends. S/He is eligible to be a director of the Cooperative.</div>
-                                    <div className="ulitem">- Working member : A working member is any person who has paid his dues to perform duties in the Cooperative. A working member has the right to participate in all the activities, to receive all the information disseminated by the Cooperative, including notices of general meetings of members, to attend these meetings and to vote. He is entitled to an honorarium for his work and to dividends. He/she is eligible to be a director of the Cooperative.</div>
+                                    <div className="ulitem">- Single member : A single member is any person who has paid his or her dues but does not work for the Cooperative. A simple member has the right to participate in all activities, to receive all of the information disseminated by the Cooperative, including notices of general meetings of members, to attend these assemblies and to vote. He is entitled to dividends. He is eligible to be a director of the Cooperative.</div>
+                                    <div className="ulitem">- Working member : A working member is any person who has paid his dues to perform duties in the Cooperative. A working member has the right to participate in all the activities, to receive all the information disseminated by the Cooperative, including notices of general meetings of members, to attend these meetings and to vote. He is entitled to an honorarium for his work and to dividends. He is eligible to be a director of the Cooperative.</div>
                                 </div>
                             </div>
                         </div>
