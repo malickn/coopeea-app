@@ -17,10 +17,10 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-md-3 col-sm-6">
                                 <div className="footer-link mt-45" style={hideEnglish}>
-                                    <h4 className="footer-title">A propos de Nous</h4>
+                                    <h4 className="footer-title">À propos de Nous</h4>
                                     <ul className="link-list">
                                         <li><a href="/aboutus-organization">L'Organisation</a></li>
-                                        <li><a href="/aboutus-mission">Mission et valeurs</a></li>
+                                        <li><a href="/aboutus-mission">Missions et valeurs</a></li>
                                         <li><a href="/aboutus-objectives">Objectifs</a></li>
                                     </ul>
                                 </div>
@@ -46,7 +46,7 @@ class Footer extends Component {
                                 <div className="footer-link mt-45" style={hideFrench}>
                                     <h4 className="footer-title">Our services</h4>
                                     <ul className="link-list">
-                                        <li><a href="/services-development-competence">Competence developpement</a></li>
+                                        <li><a href="/services-development-competence">Competence development</a></li>
                                         <li><a href="/services-orientation-mediation">Orientation and Mediation </a></li>
                                         {/* <li><a href="/services-mentoring">Mentoring</a></li> */}
                                         <li><a href="/services-digital-culture">Digital culture</a></li>

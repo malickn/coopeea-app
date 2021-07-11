@@ -22,8 +22,8 @@ class AboutUsOrganization extends Component {
                 <div className="page-banner-bg bg_cover" style={{backgroundImage: "url(assets/images/page-banner.jpg)"}}>
                     <div className="container">
                         <div className="banner-content text-center">
-                            <h2 className="title" style={hideEnglish}>A propos de nous</h2>
-                            <h2 className="title" style={hideFrench}>About Us</h2>
+                            <h2 className="title" style={hideEnglish}>Organisation</h2>
+                            <h2 className="title" style={hideFrench}>Organization</h2>
                         </div>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ class AboutUsOrganization extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">A propos de nous</h2>
+                                <h2 className="title">Organisation</h2>
                                 <span className="line"></span>
                                 <div className="subtitle">La COOPEEA (Coopérative des enseignantes et enseignants d'action communautaire) offre aux enseignant.e.s, aux chercheur.e.s et aux spécialistes de l'éduction un cadre pour appuyer et accompagner les politiques éducatives. La COOPEEA intervient en termes de soutien scolaire, de stratégies et d'innovations pédagogiques favorisant la motivation et la réussite scolaire.</div>
                                 <div className="organisation">
@@ -51,7 +51,7 @@ class AboutUsOrganization extends Component {
                                         </ul>
                                     </div>
                                     
-                                    <div className="ulitem">- <span>Comité de de médiation et d'orientation</span> : Ce comité est le relais entre les établissements scolaires et les parents d'élèves, afin de mieux les informer sur le système éducatif. Il prend en charge aussi les questions liées à l'orientation des jeunes, vers les bonnes ressources pour leur réussite scolaire.</div>
+                                    <div className="ulitem">- <span>Comité de médiation et d'orientation</span> : Ce comité est le relais entre les établissements scolaires et les parents d'élèves, afin de mieux les informer sur le système éducatif. Il prend en charge aussi les questions liées à l'orientation des jeunes, vers les bonnes ressources pour leur réussite scolaire.</div>
                                     <div className="ulitem">- <span>Comité de soutien scolaire</span> : Ce comité assure des soutiens relatifs aux difficultés d'apprentissage des jeunes. Il met à la disposition des jeunes toutes les ressources et l'accompagnement nécessaires à leur réussite scolaire.</div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ class AboutUsOrganization extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">About Us</h2>
+                                <h2 className="title">Organization</h2>
                                 <span className="line"></span>
                                 <div className="subtitle">
                                 COOPEEA (Cooperative of Community Action Teachers) provides a framework for teachers,researchers and education specialists to support and accompany educational policies. COOPEEA intervenes in terms of academic support, strategies and pedagogical innovations that promote motivation and academic success.

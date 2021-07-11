@@ -34,7 +34,7 @@ class ServicesDigitalCulture extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">Services</h2>
+                                
                                 <span className="line"></span>
                                 <p>Culture numérique</p>
                                 <div className="subtitle">
@@ -58,7 +58,7 @@ class ServicesDigitalCulture extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">Services</h2>
+                                
                                 <span className="line"></span>
                                 <p>Digital Culture</p>
                                 <div className="subtitle">

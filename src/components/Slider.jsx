@@ -20,7 +20,7 @@ class Slider extends Component {
                         <div className="slider-content">
                             <h2 className="title" data-animation="fadeInLeft" data-delay="0.2s">L'éducation, le coeur du développement durable</h2>
                             <ul className="slider-btn">
-                                <li><a data-animation="fadeInUp" data-delay="0.6s" className="main-btn main-btn-2" href="/contact">Voir les cours</a></li>
+                                <li><a data-animation="fadeInUp" data-delay="0.6s" className="main-btn main-btn-2" href="#top-courses-area">Voir les cours</a></li>
                                 <li><a data-animation="fadeInUp" data-delay="1s" className="main-btn" href="/contact">Voir plus</a></li>
                             </ul>
                         </div>
@@ -31,7 +31,7 @@ class Slider extends Component {
                         <div className="slider-content">
                             <h2 className="title" data-animation="fadeInLeft" data-delay="0.2s">L'éducation, le coeur du développement durable</h2>
                             <ul className="slider-btn">
-                                <li><a data-animation="fadeInUp" data-delay="0.6s" className="main-btn main-btn-2" href="/contact">Voir les cours</a></li>
+                                <li><a data-animation="fadeInUp" data-delay="0.6s" className="main-btn main-btn-2" href="#top-courses-area">Voir les cours</a></li>
                                 <li><a data-animation="fadeInUp" data-delay="1s" className="main-btn" href="/contact">Voir plus</a></li>
                             </ul>
                         </div>

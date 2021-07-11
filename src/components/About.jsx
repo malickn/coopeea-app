@@ -18,7 +18,7 @@ class About extends Component {
                             <div className="about-content mt-40" style={hideEnglish}>
                                 <h2 className="about-title">Meilleur environnement éducatif</h2>
                                 <span className="line"></span>
-                                <p>Nous sommes dévoués à la réussite des jeunes comme vous, qui comprennent que l'obtention d'une formation peut conduire à une vie meilleure. </p>
+                                <p>Nous sommes dévoués à la réussite des jeunes comme vous, qui comprenez que l'obtention d'une formation peut conduire à une vie meilleure. </p>
                                 <a href="//www.coopeea.org" className="main-btn">Explorer</a>
                             </div>
                             <div className="about-content mt-40" style={hideFrench}>

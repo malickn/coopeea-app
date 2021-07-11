@@ -13,17 +13,17 @@ class TopCourses extends Component {
             display : (this.props.language === 'English') ? "block" : "none"
         }
         return (
-            <section className="top-courses-area">
+            <section className="top-courses-area" id="top-courses-area">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
                             <div className="section-title mt-40" style={hideEnglish}>
                                 <h2 className="title">Voici nos cours</h2>
-                                <p>Recommandations de cours pour vous à partir d'un catalogue de plus de 250 cours</p>
+                                <p>Recommandations de cours pour vous à partir d'un catalogue de plus de 4 cours</p>
                             </div>
                             <div className="section-title mt-40" style={hideFrench}>
                                 <h2 className="title">Here are our courses</h2>
-                                <p>Course recommendations for you from a catalog of over 240 courses</p>
+                                <p>Course recommendations for you from a catalog of over 4 courses</p>
                             </div>
                         </div>
                     </div>
@@ -31,14 +31,14 @@ class TopCourses extends Component {
                         <div className="row">
                             <div className="col-lg-3 col-sm-6 courses-col">
                                 <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Maths</a></h4>
-                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>Maths</a></h4>
+                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Mathématiques(s)</a></h4>
+                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>Mathematics (s)</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="fee">Frais : <span> 40$/h</span></p>
-                                        <p className="fee">Frais (Groupe): <span> 25$/h</span></p>
+                                        <p className="fee">Tarif (individuel) : <span> 40$/h</span></p>
+                                        <p className="fee">Tarif (Groupe): <span> 25$/h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="fee">Fee: <span> $40/h</span></p>
+                                        <p className="fee">Fee (individual): <span> $40/h</span></p>
                                         <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
@@ -52,14 +52,14 @@ class TopCourses extends Component {
                             </div>
                             <div className="col-lg-3 col-sm-6 courses-col">
                                 <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Science et Tech</a></h4>
+                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Sciences et Tech</a></h4>
                                     <h4 className="courses-title"><a href="/#" style={hideFrench}>Science & Tech</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="fee">Frais : <span> 40$/h</span></p>
-                                        <p className="fee">Frais (Groupe): <span> 25$/h</span></p>
+                                        <p className="fee">Tarif (individuel) : <span> 45$/h</span></p>
+                                        <p className="fee">Tarif (Groupe): <span> 35$/h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="fee">Fee: <span> $40/h</span></p>
+                                        <p className="fee">Fee (individual): <span> $40/h</span></p>
                                         <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
@@ -73,14 +73,14 @@ class TopCourses extends Component {
                             </div>
                             <div className="col-lg-3 col-sm-6 courses-col">
                                 <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Francais</a></h4>
+                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Français</a></h4>
                                     <h4 className="courses-title"><a href="/#" style={hideFrench}>French</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="fee">Frais : <span> 40$/h</span></p>
-                                        <p className="fee">Frais (Groupe): <span> 25$/h</span></p>
+                                        <p className="fee">Tarif (individuel) : <span> 40$/h</span></p>
+                                        <p className="fee">Tarif (Groupe): <span> 25$/h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="fee">Fee: <span> $40/h</span></p>
+                                        <p className="fee">Fee (individual): <span> $40/h</span></p>
                                         <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
@@ -97,11 +97,11 @@ class TopCourses extends Component {
                                     <h4 className="courses-title"><a href="/#" style={hideEnglish}>Anglais</a></h4>
                                     <h4 className="courses-title"><a href="/#" style={hideFrench}>English</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="fee">Frais : <span> 40$/h</span></p>
-                                        <p className="fee">Frais (Groupe): <span> 25$/h</span></p>
+                                        <p className="fee">Tarif (individuel) : <span> 40$/h</span></p>
+                                        <p className="fee">Tarif (Groupe): <span> 25$/h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="fee">Fee: <span> $40/h</span></p>
+                                        <p className="fee">Fee (individual): <span> $40/h</span></p>
                                         <p className="fee">Fee (Group): <span> $25/h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>

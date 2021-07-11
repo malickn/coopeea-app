@@ -53,7 +53,7 @@ class Features extends Component {
                                             <img src="assets/images/icon/icon-2-4.png" alt="Icon" />
                                         </div>
                                         <div className="item-content media-body" style={hideEnglish}>
-                                            <p>Enseignants Expert</p>
+                                            <p>Enseignants Expert(s)</p>
                                         </div>
                                         <div className="item-content media-body" style={hideFrench}>
                                             <p>Expert Teachers</p>

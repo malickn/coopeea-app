@@ -48,7 +48,7 @@ class Counterstart extends Component {
                             <div className="col-sm-3 col-6 counter-col">
                                 <div className="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.8s" style={hideEnglish}>
                                     <span className="counter-count"><span className="count">10</span> +</span>
-                                    <p>Récompanses</p>
+                                    <p>Récompenses</p>
                                 </div>
                                 <div className="single-counter mt-30 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.8s" style={hideFrench}>
                                     <span className="counter-count"><span className="count">10</span> +</span>

@@ -34,7 +34,7 @@ class ServicesMentoring extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">Services</h2>
+                                
                                 <span className="line"></span>
                                 <p>Mentorat</p>
                             </div>
@@ -45,7 +45,7 @@ class ServicesMentoring extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">Services</h2>
+                                
                                 <span className="line"></span>
                                 <p>Mentoring</p>
                             </div>

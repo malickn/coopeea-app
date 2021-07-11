@@ -34,7 +34,7 @@ class ServicesSupportInternationalEducation extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">Services</h2>
+                                
                                 <span className="line"></span>
                                 <div className="subtitle">Avec son grand réseaux d’experts et spécialistes en Éducation, la COOPEEA appuie et accompagne les politiques éducatives dans le cadre de la coopération entre le Québec et les pays en développement. La COOPEEA offre aux professionnels et aux étudiants en éducation la possibilité de vivre des expériences enrichissantes, à travers des stages dans les pays en développement.</div>
                             </div>
@@ -45,7 +45,7 @@ class ServicesSupportInternationalEducation extends Component {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-2">
-                                <h2 className="title">Services</h2>
+                                
                                 <span className="line"></span>
                                 <div className="subtitle">With its large network of experts and specialists in Education, COOPEEA supports and accompanies educational policies within the framework of cooperation between Quebec and developing countries. COOPEEA offers professionals and students in education the opportunity to live enriching experiences, through internships in developing countries.</div>
                             </div>

@@ -94,7 +94,7 @@ class Header extends Component {
                                             <a href="/#">A propos de nous</a>
                                             <ul className="nav-dropdown nav-submenu">
                                                 <li><a href="/aboutus-organization">L'Organisation</a></li>
-                                                <li><a href="/aboutus-mission">Mission et valeurs</a></li>
+                                                <li><a href="/aboutus-mission">Missions et valeurs</a></li>
                                                 <li><a href="/aboutus-objectives">Objectifs</a></li>
                                             </ul>
                                         </li>

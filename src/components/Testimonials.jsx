@@ -52,33 +52,12 @@ class Testimonials extends Component {
                                             <div className="single-testimonial-content">
                                                 <div className="content-text">
                                                     <i className="fas fa-quote-right"></i>
-                                                    <p>Best pleasure rationally encounter consequences that are very nice a again is there anyone who loves or desires to obtain pain of itself</p>
+                                                    <p>COOPEEA nous a offert une excellente formation en sciene et technologie adaptée à notre environnement de travail et à nos besoins.</p>
                                                 </div>
                                                 <div className="content-meta">
                                                     <p className="name">Michel Sy</p>
-                                                    <p className="designation">CEO, Xelopex Group</p>
                                                 </div>
-                                            </div>
-                                            <div className="single-testimonial-content">
-                                                <div className="content-text">
-                                                    <i className="fas fa-quote-right"></i>
-                                                    <p>Best pleasure rationally encounter consequences that are very nice a again is there anyone who loves or desires to obtain pain of itself</p>
-                                                </div>
-                                                <div className="content-meta">
-                                                    <p className="name">Michel Sy</p>
-                                                    <p className="designation">CEO, Xelopex Group</p>
-                                                </div>
-                                            </div>
-                                            <div className="single-testimonial-content">
-                                                <div className="content-text">
-                                                    <i className="fas fa-quote-right"></i>
-                                                    <p>Best pleasure rationally encounter consequences that are very nice a again is there anyone who loves or desires to obtain pain of itself</p>
-                                                </div>
-                                                <div className="content-meta">
-                                                    <p className="name">Michel Sy</p>
-                                                    <p className="designation">CEO, Xelopex Group</p>
-                                                </div>
-                                            </div>
+                                            </div>                            
                                         </div>
                                     </div>
                                 </div>
