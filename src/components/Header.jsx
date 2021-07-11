@@ -67,7 +67,7 @@ class Header extends Component {
                             </div>
                             <div className="header-top-right mt-10">
                                 <div className="header-link">
-                                    <a id="lang" rel={this.props.language} href="http://coopeea.org" onClick={this.clickOnLanguage}>{this.props.language}</a>    
+                                    <a id="lang" rel={this.props.language} href="https://coopeea.org" onClick={this.clickOnLanguage}>{this.props.language}</a>    
                                 </div>
                             </div>
                         </div>

@@ -20,6 +20,7 @@ class Newsletter extends Component {
         this.setState({successMessage : ''})
         const error = this.validateEmail(this.state.email);
         this.setState({show : true})
+        
         if(error.length > 0){
             this.setState({errorMessage : error})
         }else{
@@ -28,25 +29,27 @@ class Newsletter extends Component {
                     email : this.state.email,
                     lg : this.props.language
             };
-            const endpoint = 'http://coopeea.org/api/newsletter.php';
+            const endpoint = 'https://coopeea.org/api/newsletter.php';
 
             fetch(endpoint, {
                 "method": "POST",
                 "body": JSON.stringify(data)
             })
             .then(response => response.json())
-            .then(response => {     
+            .then(response => {                
                 if(response.action === "failed"){             
                     this.setState({errorMessage : response.msg})
                 }else{
                     this.setState({successMessage : response.msg})
                     this.setState({email : ''});
                 }
+                
             })
             .catch(err => {
                 this.setState({errorMessage : err})
             });
         }
+        
     }
 
     validateEmail = (email) => {

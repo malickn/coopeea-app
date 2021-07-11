@@ -53,7 +53,7 @@ class Contact extends Component {
                     message : this.state.message,
                     lg : this.props.language
             };
-            const endpoint = 'http://coopeea.org/api/sendcontactinfo.php';
+            const endpoint = 'https://coopeea.org/api/sendcontactinfo.php';
 
             fetch(endpoint, {
                 "method": "POST",

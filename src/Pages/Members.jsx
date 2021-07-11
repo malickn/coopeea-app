@@ -52,7 +52,7 @@ class Members extends Component {
                     comment : this.state.comment,
                     lg : this.props.language
             };
-            const endpoint = 'http://coopeea.org/api/member.php';
+            const endpoint = 'https://coopeea.org/api/member.php';
 
             fetch(endpoint, {
                 "method": "POST",
