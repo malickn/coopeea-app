@@ -31,15 +31,15 @@ class TopCourses extends Component {
                         <div className="row">
                             <div className="col-lg-3 col-sm-6 courses-col">
                                 <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Mathématiques(s)</a></h4>
-                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>Mathematics (s)</a></h4>
+                                    <h4 className="courses-title"><a href="/services-tutoring-maths" style={hideEnglish}>Mathématiques</a></h4>
+                                    <h4 className="courses-title"><a href="/services-tutoring-maths" style={hideFrench}>Mathematics</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="fee">Tarif (individuel) : <span> 40$/h</span></p>
-                                        <p className="fee">Tarif (Groupe): <span> 25$/h</span></p>
+                                        <p className="fee">Tarif (individuel) : <span> 40 $ / h</span></p>
+                                        <p className="fee">Tarif (Groupe): <span> 25 $ / h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="fee">Fee (individual): <span> $40/h</span></p>
-                                        <p className="fee">Fee (Group): <span> $25/h</span></p>
+                                        <p className="fee">Fee (individual): <span> $ 40 / h</span></p>
+                                        <p className="fee">Fee (Group): <span> $ 25 / h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
                                         <a className="apply" href="/services-tutoring-maths">S'inscrire</a><br/>
@@ -52,15 +52,15 @@ class TopCourses extends Component {
                             </div>
                             <div className="col-lg-3 col-sm-6 courses-col">
                                 <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Sciences et Tech</a></h4>
-                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>Science & Tech</a></h4>
+                                    <h4 className="courses-title"><a href="/services-tutoring-sciencetechnology" style={hideEnglish}>Sciences et Tech</a></h4>
+                                    <h4 className="courses-title"><a href="/services-tutoring-sciencetechnology" style={hideFrench}>Science & Tech</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="fee">Tarif (individuel) : <span> 45$/h</span></p>
-                                        <p className="fee">Tarif (Groupe): <span> 35$/h</span></p>
+                                        <p className="fee">Tarif (individuel) : <span> 40 $ / h</span></p>
+                                        <p className="fee">Tarif (Groupe): <span> 25 $ / h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="fee">Fee (individual): <span> $40/h</span></p>
-                                        <p className="fee">Fee (Group): <span> $25/h</span></p>
+                                        <p className="fee">Fee (individual): <span> $ 40 / h</span></p>
+                                        <p className="fee">Fee (Group): <span> $ 25 / h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
                                         <a className="apply" href="/services-tutoring-sciencetechnology">S'inscrire</a><br/>
@@ -73,15 +73,15 @@ class TopCourses extends Component {
                             </div>
                             <div className="col-lg-3 col-sm-6 courses-col">
                                 <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Français</a></h4>
-                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>French</a></h4>
+                                    <h4 className="courses-title"><a href="/services-tutoring-french" style={hideEnglish}>Français</a></h4>
+                                    <h4 className="courses-title"><a href="/services-tutoring-french" style={hideFrench}>French</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="fee">Tarif (individuel) : <span> 40$/h</span></p>
-                                        <p className="fee">Tarif (Groupe): <span> 25$/h</span></p>
+                                        <p className="fee">Tarif (individuel) : <span> 40 $ / h</span></p>
+                                        <p className="fee">Tarif (Groupe): <span> 25 $ / h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="fee">Fee (individual): <span> $40/h</span></p>
-                                        <p className="fee">Fee (Group): <span> $25/h</span></p>
+                                        <p className="fee">Fee (individual): <span> $ 40 / h</span></p>
+                                        <p className="fee">Fee (Group): <span> $ 25 / h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
                                         <a className="apply" href="/services-tutoring-french">S'inscrire</a><br/>
@@ -94,15 +94,15 @@ class TopCourses extends Component {
                             </div>
                             <div className="col-lg-3 col-sm-6 courses-col">
                                 <div className="single-courses mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.2s">
-                                    <h4 className="courses-title"><a href="/#" style={hideEnglish}>Anglais</a></h4>
-                                    <h4 className="courses-title"><a href="/#" style={hideFrench}>English</a></h4>
+                                    <h4 className="courses-title"><a href="/services-tutoring-english" style={hideEnglish}>Anglais</a></h4>
+                                    <h4 className="courses-title"><a href="/services-tutoring-english" style={hideFrench}>English</a></h4>
                                     <div className="duration-fee" style={hideEnglish}>
-                                        <p className="fee">Tarif (individuel) : <span> 40$/h</span></p>
-                                        <p className="fee">Tarif (Groupe): <span> 25$/h</span></p>
+                                        <p className="fee">Tarif (individuel) : <span> 40 $ / h</span></p>
+                                        <p className="fee">Tarif (Groupe): <span> 25 $ / h</span></p>
                                     </div>
                                     <div className="duration-fee" style={hideFrench}>
-                                        <p className="fee">Fee (individual): <span> $40/h</span></p>
-                                        <p className="fee">Fee (Group): <span> $25/h</span></p>
+                                        <p className="fee">Fee (individual): <span> $ 40 / h</span></p>
+                                        <p className="fee">Fee (Group): <span> $ 25 / h</span></p>
                                     </div>
                                     <div className="courses-link" style={hideEnglish}>
                                         <a className="apply" href="/services-tutoring-english">S'inscrire</a><br/>
