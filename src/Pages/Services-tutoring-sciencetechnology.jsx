@@ -41,7 +41,7 @@ class ServicesTutoringScienceTechnology extends Component {
                                 <div className="ulitems">
                                     <div><b>Compétences ciblées</b></div>
                                     <div className="ulitem">1. Chercher des réponses  ou des solutions d'ordre scientifique ou technologique</div>
-                                    <div className="ulitem">2. Mettre à profits ses connaissances scientifiques et technologiques</div>
+                                    <div className="ulitem">2. Mettre à profit ses connaissances scientifiques et technologiques</div>
                                     <div className="ulitem">3. Communiquer à l'aide des langages utilisés en Science et technologie</div>
                                 </div>
                                 <div className="ulitems">

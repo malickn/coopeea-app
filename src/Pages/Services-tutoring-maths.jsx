@@ -44,7 +44,7 @@ class ServicesTutoringMaths extends Component {
                                     <div><b>Compétences ciblées</b></div>
                                     <div className="ulitem">1.	Résoudre une situation-problème</div>
                                     <div className="ulitem">2.	Déployer un raisonnement mathématique</div>
-                                    {/* <div className="ulitem">3.	Communiquer à l'aide du langage mathématiques</div> */}
+                                    <div className="ulitem">3.	Communiquer à l'aide du langage mathématique</div>
                                 </div>
                                 <div className="ulitems">
                                     <div><b>Éléments d'apprentissage</b></div>
@@ -65,7 +65,7 @@ class ServicesTutoringMaths extends Component {
                                     <div><b>Targeted skills</b></div>
                                     <div className="ulitem">1. Doing problem solving</div>
                                     <div className="ulitem">2. Deploy mathematical reasoning</div>
-                                    {/* <div className="ulitem">3. Communicate using mathematical language</div> */}
+                                    <div className="ulitem">3. Communicate using mathematical language</div>
                                 </div>
                                 <div className="ulitems">
                                     <div><b>Learning elements</b></div>
