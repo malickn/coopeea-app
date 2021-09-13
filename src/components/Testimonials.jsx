@@ -52,7 +52,7 @@ class Testimonials extends Component {
                                             <div className="single-testimonial-content">
                                                 <div className="content-text">
                                                     <i className="fas fa-quote-right"></i>
-                                                    <p>COOPEEA nous a offert une excellente formation en sciene et technologie adaptée à notre environnement de travail et à nos besoins.</p>
+                                                    <p>COOPEEA nous a offert une excellente formation en science et technologie adaptée à notre environnement de travail et à nos besoins.</p>
                                                 </div>
                                                 <div className="content-meta">
                                                     <p className="name">Michel Sy</p>

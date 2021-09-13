@@ -23,7 +23,7 @@ class ServicesForm extends Component {
                                 <p>{this.props.titleFrench}</p>
                                 <div className="subtitle">Amener les apprenants à comprendre les notions apprises en classe, donner à l'apprenant des stratégies de mieux comprendre les concepts abordés en classe, relever ou maintenir la motivation scolaire, l'estime de soi, la confiance en soi, éventuellement expliquer la structure scolaire québécoise (curriculum scolaire)
                                 </div>
-                                <div className="ulitems">
+                                {/* <div className="ulitems">
                                     <div><b>Types de cours et niveaux scolaires :</b></div>
                                     <div className="ulitem">- Aide aux devoirs au primaire et au secondaire : Les élèves, nos enfants, ont besoin de soutien pour faire les devoirs à la maison. Cela les aide à suivre le rythme intense d'apprentissage en classe, cela les aide à garder leur estime de soi car ils comprennent les notions en classe et obtiennent de bonnes notes. </div>
                                     <div className="ulitem">- Cours de renforcement pour permettre aux élèves de suivre la progression des apprentissages en classe au primaire et au secondaire</div>
@@ -37,7 +37,7 @@ class ServicesForm extends Component {
                                         </ul>	
                                     </div>
                                     <div className="ulitem">- Plan de mise à niveau scolaire pour enfant en grande difficulté motivationnelle (écriture, oral et lecture; raisonnement et résolution en mathématique …)</div>
-                                </div>
+                                </div> */}
                                 <div className="ulitems">
                                     <div><b>Moyens utilisés pour enseigner</b></div>
                                     <div className="ulitem">- Cours en ligne ou à domicile</div>
@@ -67,7 +67,7 @@ class ServicesForm extends Component {
                                 <span className="line"></span>
                                 <p>{this.props.titleEnglish}</p>
                                 <div className="subtitle">Bring the students to understand the concepts learned in class, give the learner strategies to better understand the concepts discussed in class, Raise or maintain academic motivation, self-esteem and self-confidence, Possibly explain the Quebec school structure (school curriculum)</div>
-                                <div className="ulitems">
+                                {/* <div className="ulitems">
                                     <div><b>Types of courses and grade levels:</b></div>
                                     <div className="ulitem">- Elementary and High School Homework Support: Students, our children, need support with homework. This helps them keep up with the intense pace of learning in class, it helps them maintain their self-esteem as they understand the concepts in class and get good grades.</div>
                                     <div className="ulitem">- Reinforcement classes to help students keep up with the learning in the classroom in elementary and high school.</div>
@@ -81,7 +81,7 @@ class ServicesForm extends Component {
                                         </ul>	
                                     </div>
                                     <div className="ulitem">- Academic upgrading plan for children with severe motivational difficulties (writing, speaking and reading; reasoning and solving in mathematics...)</div>
-                                </div>
+                                </div> */}
                                 <div className="ulitems">
                                     <div><b>Means used to teach</b></div>
                                     <div className="ulitem">- Online or at home courses</div>

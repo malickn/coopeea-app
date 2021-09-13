@@ -41,7 +41,7 @@ class ServicesTutoringFrench extends Component {
                                 <div className="ulitems">
                                     <div><b>Compétences ciblées</b></div>
                                     <div className="ulitem">1. Lire et apprécier des textes variés</div>
-                                    <div className="ulitem">2. Écrire de textes variés</div>
+                                    <div className="ulitem">2. Écrire des textes variés</div>
                                     <div className="ulitem">3. Communiquer oralement selon des modalités variées</div>
                                 </div>
                                 <div className="ulitems">
