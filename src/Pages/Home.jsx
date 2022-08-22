@@ -8,6 +8,7 @@ import Counterstart from '../components/Counterstart';
 import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 import Topcourses from '../components/Topcourses';
+import Video from '../components/Video';
 
 class Home extends Component {
     
@@ -17,6 +18,7 @@ class Home extends Component {
                 <Header />
                 <Slider />
                 <About />
+                <Video />
                 <Features />
                 <Topcourses />
                 <Testimonials />

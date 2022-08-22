@@ -12,6 +12,7 @@ class Members extends Component {
             firstname: '',
             lastname: '',
             email : '',
+            phone : '',
             comment : '',
             successMessage : '',
             errorMessage : '' ,
@@ -27,6 +28,9 @@ class Members extends Component {
     handleEmail = (event) => {
         this.setState({email : event.target.value});
     }
+    handlePhone = (event) => {
+        this.setState({phone : event.target.value});
+    }
     handleMemberType = (event) => {
         this.setState({membertype : event.target.value});
     }
@@ -38,7 +42,7 @@ class Members extends Component {
         e.preventDefault();
         this.setState({errorMessage : ''})
         this.setState({successMessage : ''})
-        const error = this.validate(this.state.firstname, this.state.lastname, this.state.email);
+        const error = this.validate(this.state.firstname, this.state.lastname, this.state.email, this.state.phone);
         this.setState({show : true})
         if(error.length > 0){
             this.setState({errorMessage : error})
@@ -48,6 +52,7 @@ class Members extends Component {
                     firstname:this.state.firstname,
                     lastname:this.state.lastname,
                     email : this.state.email,
+                    phone : this.state.phone,
                     membertype: this.state.membertype,
                     comment : this.state.comment,
                     lg : this.props.language
@@ -77,7 +82,12 @@ class Members extends Component {
         }
     }
 
-    validate = (firstname, lastname, email) => {
+    telephoneCheck = (str) => {
+        var patt = new RegExp(/^\+?1?\s*?\(?\d{3}(?:\)|[-|\s])?\s*?\d{3}[-|\s]?\d{4}$/);
+        return patt.test(str);
+    }
+
+    validate = (firstname, lastname, email, phone) => {
         const errors = '';
         
         if (firstname.length === 0) {
@@ -88,6 +98,16 @@ class Members extends Component {
             const n = (this.props.language !== 'English') ? "Please enter your Last Name" : "Veuillez saisir votre nom";
             return n;
         }
+        if (phone.length === 0) {
+            const n = (this.props.language !== 'English') ? "Please enter your phone number" : "Veuillez saisir votre téléphone";
+            return n;
+        }
+
+        if(!this.telephoneCheck(phone)){
+            const n = (this.props.language !== 'English') ? "Please enter a valid phone number" : "Veuillez saisir un téléphone valide";
+            return n;
+        }
+
         if (email.length < 5) {
             const n = (this.props.language !== 'English') ? "Email should be at least 5 charcters long" : "Le courriel doit comporter au moins 5 caractères";
             return n;
@@ -172,6 +192,10 @@ class Members extends Component {
                                             <input type="email" name="email" id="email" placeholder="Courriel" value={this.state.email} onChange={this.handleEmail}/>
                                         </div>
                                         <div className="single-form">
+                                            <label>Téléphone *</label>
+                                            <input type="phone" name="phone" id="phone" placeholder="Téléphone" value={this.state.phone} onChange={this.handlePhone}/>
+                                        </div>
+                                        <div className="single-form">
                                             <label>Type de membre *</label>
                                             <select className="custom-select" name="membertype" id="membertype" value={this.state.membertype} onChange={this.handleMemberType}>
                                                 <option value="Simple" selected>Simple</option>
@@ -238,6 +262,10 @@ class Members extends Component {
                                         <div className="single-form">
                                             <label>Email address *</label>
                                             <input type="email" name="email" id="email" placeholder="Email" value={this.state.email} onChange={this.handleEmail}/>
+                                        </div>
+                                        <div className="single-form">
+                                            <label>Phone *</label>
+                                            <input type="phone" name="phone" id="phone" placeholder="Phone" value={this.state.phone} onChange={this.handlePhone}/>
                                         </div>
                                         <div className="single-form">
                                             <label>Member Type *</label>
